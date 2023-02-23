@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+    <title>Homeless Blues</title>
+    <lyricalArtist>Porter Grainger</lyricalArtist>
+    <singer>Bessie Smith</singer>
+    <year>1927</year>
+    <genre>Blues</genre>
+    <verse>
+        <line>Mississippi River, what a fix you left me in, </line>
+        <line>
+            <event type="flood">Old Mississippi River, what a fix you left me in,</event>
+        </line>
+        <line>Mudholes of water clear up to my chin.</line>
+    </verse>
+    <verse>
+        <line>House without a steeple didn't even have a door,</line>
+        <line>House without a steeple didn't even have a door, </line>
+        <line>
+            <event type="socioecenomic disparity due to racism?">Plain old two room shanty but it
+                was my home sweet home.</event>
+        </line>
+    </verse>
+    <verse>
+        <line>
+            <family>Ma and pa got drownded, Mississippi you the blame,</family>
+        </line>
+        <line>My ma and pa got drownded, Mississippi you the blame, </line>
+        <line>Mississippi River, I can't stand to hear your name.</line>
+    </verse>
+    <verse>
+        <line>
+            <emotion class="depression">Homeless, yes, I'm homeless, might as well be
+                dead,</emotion>
+        </line>
+        <line>Oh you know I'm homeless, homeless, might as well be dead, </line>
+        <line>Hungry and disgusted, no place to lay my head.</line>
+    </verse>
+    <verse>
+        <line>
+            <event type="socioecenomic disparity due to racism?">Wish I was an eagle, but I'm a
+                plain old black crow, </event>
+        </line>
+        <line>Wish I was an eagle, but I'm a plain old black crow, </line>
+        <line>
+            <autonomy present="forced" entity="group">I'm gonna flap my wings and leave here, and
+                never come back no more.</autonomy>
+        </line>
+    </verse>
+</song>
