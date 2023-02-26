@@ -6,7 +6,7 @@ song = element song {metadata, verse+}
 #metadata
 metadata = element metadata {title, sung-by, performed-by?, written-by, publish-date, moral}
 title = element title {text}
-sung-by = element sing-by {text}
+sung-by = element sung-by {text}
 performed-by = element performed-by {text}
 written-by = element written-by {text}
 publish-date = element publish-date {text}
@@ -14,27 +14,27 @@ moral = element moral {text}
 
 #verses
 #structure
-verse = element verse {mixed {line-start, (action | description | cause | mental-health | relationship | money)*}}
+verse = element verse {mixed {(action | description | cause | mental-health | relationship | money | line-start)*}}
 line-start = element line-start {empty}
 
 #foundational elements/attributes
-action = element action {mixed {(present, who, type?), (description | cause | mental-health | relationship | money)*}}
+action = element action {present, who, type?, mixed {(description | cause | mental-health | relationship | money | line-start)*}}
     present = attribute present {"yes" | "no"}
     who = attribute who {"self" | "man" | "third party person" | "third party object"}
     type = attribute type {"direct" | "indirect"}
-description = element description {mixed {(possessive, tone, gender, referent), (action | cause | mental-health | relationship | money)*}}
+description = element description {possessive, tone, gender, referent, mixed {(action | cause | mental-health | relationship | money | line-start)*}}
     possessive = attribute possessive {"yes" | "no"}
     tone = attribute tone {"positive" | "negative" | "neutral"}
     gender = attribute gender {"female" | "male"}
     referent = attribute referent {"self" | "other"}
-cause = element cause {mixed {(fault), (action | description | mental-health | relationship | money)*}}
+cause = element cause {fault, mixed {(action | description | mental-health | relationship | money | line-start)*}}
     fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "x"}
 
 #secondary elements/attributes
-mental-health = element mental-health {state, text}
+mental-health = element mental-health {state, mixed {(action | description | cause | relationship | money | line-start)*}}
     state = attribute state {"positive" | "negative" | "neutral"}
-relationship = element relationship {atmosphere, text}
+relationship = element relationship {atmosphere, mixed {(action | description | cause | mental-health | money | line-start)*}}
     atmosphere = attribute atmosphere {"positive" | "negative" | "neutral"}
-money = element money {status, current-quantity}
+money = element money {status, current-quantity, mixed {(action | description | cause | mental-health | relationship | line-start)*}}
     status = attribute status {"gained" | "lost" | "static"}
-    current-quantity = attribute quantity {"none" | "little" | "enough" | "lots" | "x"}
+    current-quantity = attribute quantity {"lacking" | "enough"}
