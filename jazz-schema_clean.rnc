@@ -20,7 +20,7 @@ line-start = element line-start {empty}
 #foundational elements/attributes
 action = element action {present, who, type?, mixed {(description | cause | mental-health | relationship | money | line-start)*}}
     present = attribute present {"yes" | "no"}
-    who = attribute who {"self" | "man" | "third party person" | "third party object"}
+    who = attribute who {"self" | "opposite party" | "third party entity"}
     type = attribute type {"direct" | "indirect"}
 description = element description {possessive, tone, gender, referent, mixed {(action | cause | mental-health | relationship | money | line-start)*}}
     possessive = attribute possessive {"yes" | "no"}
@@ -28,10 +28,10 @@ description = element description {possessive, tone, gender, referent, mixed {(a
     gender = attribute gender {"female" | "male"}
     referent = attribute referent {"self" | "other"}
 cause = element cause {fault, mixed {(action | description | mental-health | relationship | money | line-start)*}}
-    fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "x"}
+    fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "family" | "x"}
 
 #secondary elements/attributes
-mental-health = element mental-health {state, mixed {(action | description | cause | relationship | money | line-start)*}}
+mental-health = element mental-health {state, who, mixed {(action | description | cause | relationship | money | line-start)*}}
     state = attribute state {"positive" | "negative" | "neutral"}
 relationship = element relationship {atmosphere, mixed {(action | description | cause | mental-health | money | line-start)*}}
     atmosphere = attribute atmosphere {"positive" | "negative" | "neutral"}
