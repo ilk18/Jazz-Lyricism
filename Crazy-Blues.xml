@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../jazz-schema_clean%20copy.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Crazy Blues</title>
+        <sung-by> Mamie Smith </sung-by>
+        <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
+        <written-by>Perry Bradford</written-by>
+        <publish-date>1920</publish-date>
+        <moral>Depression, anger, longing, loneliness</moral>
+    </metadata>
+    <verse>
+        <mental-health who="self" state="negative">I can't sleep at night I can't eat a
+            bite</mental-health>
+        <cause fault="abuse">'Cause the man I love He don't treat me right</cause>
+    </verse>
+
+    <verse><relationship atmosphere="negative">He makes me feel so blue</relationship> I don't know
+        what to do <action present="yes" who="self" type="direct"> Sometime I sit and sigh And then
+            begin to cry </action>
+        <cause fault="abandonment">'Cause my best friend Said his last goodbye</cause></verse>
+
+    <verse>There's a change in the ocean Change in the deep blue sea, my baby I'll tell you folks,
+        there ain't no change in me My love for that man will always be</verse>
+
+    <verse>Now <action present="yes" who="self" type="direct">I can read his letters</action> I sure
+        can't read his mind I thought he's lovin' me <cause fault="abandonment">He's leavin' all the
+            time</cause> Now I see my poor love was blind</verse>
+
+    <verse><mental-health who="self" state="negative">Now I got the crazy blues</mental-health>
+        <cause fault="abandonment">Since my baby went away</cause> I ain't got no time to lose I
+        must find him today</verse>
+
+    <verse>Now the doctor's gonna do all that he can But what you're gonna need is an undertaker man
+            <mental-health who="self" state="negative">I ain't had nothin' but bad news Now I got
+            the crazy blues</mental-health></verse>
+</song>
