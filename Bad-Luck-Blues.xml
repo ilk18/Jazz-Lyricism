@@ -6,7 +6,7 @@
         <sung-by>Ma Rainey</sung-by>
         <written-by>L. Austin</written-by>
         <publish-date>March, 1924</publish-date>
-        <moral>[insert moral]</moral>
+        <moral>inability to move on</moral>
     </metadata>
 
     <verse>
@@ -26,7 +26,7 @@
         <line-start/>Hey Lord, there's something going all wrong</verse>
 
     <verse>
-        <line-start/><mental-health state="negative">What’s the use of livin', you can't get the man you love 
+        <line-start/><mental-health state="negative" who="self">What’s the use of livin', you can't get the man you love 
         <line-start/>The use of livin’, you can't get the man you love 
         <line-start/><action present="yes" who="self" type="indirect">You might as well just die, give your soul to the Maker above</action></mental-health></verse>
 </song>
