@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+    <metadata>
+        <title> Golfing Papa </title>
+        <sung-by> Mamie Smith </sung-by>
+        <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
+        <written-by> Perry Bradford </written-by>
+        <publish-date> 1920 </publish-date>
+        <moral> Man not putting effort into the relationship, woman leaving the relationship
+        </moral>
+    </metadata>
+    <verse> Golfing Dan was a golfing man, He'd golf from morn till night. He had a mama,
+            <description possessive="yes" tone="positive" gender="female" referent="self">a loving
+            mama.</description>
+        <relationship atmosphere="negative">He didn't treat her right.</relationship> He'd come
+        home, all tired out, <cause fault="abandonment">And right to bed he'd go.</cause>
+        <mental-health who="self" state="negative">His mama soon got tired of this,</mental-health>
+        <action present="yes" who="self" type="direct">And these words she whispered low.</action>
+    </verse>
+
+    <verse>
+        <relationship atmosphere="negative"> She says, Golfing papa you're way over
+            par,</relationship> You'll have to stop puttin on the green. <cause fault="abandonment"
+            >You've had your way on the fairway,</cause> You know just what I mean. </verse>
+
+    <verse> Now, your stance is perfect, Your aim is true, But papa when you drive, <cause
+            fault="abandonment">You fail to follow through.</cause>
+    </verse>
+
+    <verse> Golfing papa you're way over par, You'll have to stop puttin on the green. Use your
+        niblick, You'll have to stop puttin on the green. </verse>
+
+    <verse> Now what you need is a golfin coach, <description possessive="no" tone="positive"
+            gender="male" referent="other">You're alright on your drive</description> but
+            <description possessive="no" tone="negative" gender="male" referent="other">bad on your
+            approach.</description> What you want, your mama has got But son you'd better practice
+        your explosion shot. </verse>
+
+    <verse> Now listen papa you must learn your stuff Cause when you drive you slice, and go right
+        in the rough. <cause fault="no love">From paying green fees</cause>
+        <mental-health who="self" state="negative">you've got me broke,</mental-health> Your shaft
+        is bent and now you've lost your master stroke. </verse>
+
+    <verse> So pack your golf bags you've had your fun, I found <description possessive="no"
+            tone="positive" gender="male" referent="other">another man who made a hole in
+            one.</description>
+    </verse>
+
+    <verse> Golfing papa you're way over par, You'll have to stop puttin on the green. Turn in your
+        scorecard, You'll have to stop puttin on the green. </verse>
+</song>
