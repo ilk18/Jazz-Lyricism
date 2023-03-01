@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Homeless Blues</title>
+        <sung-by>Bessie Smith</sung-by>
+        <written-by>Porter Grainger</written-by>
+        <publish-date>1927</publish-date>
+        <moral>Loss</moral>
+    </metadata>
+    <verse>
+        <line-start/><cause fault="event">Mississippi River, what a fix you left me in, 
+        <line-start/>Old Mississippi River, what a fix you left me in, 
+        <line-start/>Mudholes of water clear up to my chin.</cause>
+    </verse>
+    <verse>
+        <line-start/><money quantity="lacking" status="lost">House without a steeple didn't even have a door,
+        <line-start/>House without a steeple didn't even have a door, 
+        <line-start/>Plain old two room shanty but it was my home sweet home.</money>
+    </verse>
+    <verse>
+        <line-start/><action present="yes" who="third party entity" type="direct">Ma and pa got drownded, Mississippi you the blame, 
+        <line-start/>My ma and pa got drownded, Mississippi you the blame,</action>
+        <line-start/>Mississippi River, I can't stand to hear your name.
+    </verse>
+    <verse>
+        <line-start/><mental-health state="negative" who="self">Homeless, yes, I'm homeless, might as well be dead,
+            <line-start/>Oh you know I'm homeless, homeless, might as well be dead,</mental-health> 
+        <line-start/>Hungry and disgusted, no place to lay my head.
+    </verse>
+    <verse>
+        <line-start/><description possessive="no" tone="negative" gender="female" referent="self">Wish I was an eagle, but I'm a plain old black crow, 
+        <line-start/>Wish I was an eagle, but I'm a plain old black crow,</description>
+        <line-start/><action present="yes" who="self">I'm gonna flap my wings and leave here, and never come back no more.</action>
+    </verse>
+</song>
+<!-- 
+    Need to go over with group it description is accurate and the last action present! Also, lost does not feel right for first "status".
+-->
