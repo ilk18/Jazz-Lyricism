@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../jazz-schema_clean%20copy.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title> It's Right Here For You</title>
+        <sung-by> Mamie Smith </sung-by>
+        <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
+        <written-by> Perry Bradford </written-by>
+        <publish-date> 1920 </publish-date>
+        <moral>Relationships, sexuality</moral>
+        <!-- Released as a B side with "Crazy Blues" in 1920 -->
+    </metadata>
+    <verse>I heard Jim Jackson say to Mandy Green You've been the <description possessive="yes"
+            tone="negative" gender="female" referent="other">cruelest gal I ever seen</description>
+        <action present="yes" who="opposite party" type="direct"> You made me walk you 'round the
+            park last night</action>
+        <action present="yes" who="opposite party" type="direct">then wouldn't kiss me,</action> do
+        you think that's right? Just then Miss Mandy turned around to him She said: Now listen here
+        Jim</verse>
+
+    <verse>It's right here for ya, if you don't get it, it ain't no fault of mine <relationship
+            atmosphere="positive">You know there's honey in each rose for the Bee It's up to him to
+            get it, you will agree </relationship>
+        <description possessive="yes" tone="positive" gender="female" referent="self">I've got a
+            lovin' disposition</description> So dear, I'm in the same position Cause it's right here
+        for you If you don't get it, it ain't no fault of mine Sweet Lawd, babe Taint no fault of
+        mine</verse>
+
+    <verse>When they got married and they settled down <relationship atmosphere="negative"><cause
+                fault="abandonment">He'd stay out late at night to roam around</cause>
+            <mental-health who="self" state="negative"> She soon got tired of that,</mental-health>
+            like women do</relationship> Made up her mind that she would stop it too One night
+            <action present="yes" who="self" type="direct"> she waited with a great big
+            club</action> When he came in, she said Bub</verse>
+
+    <verse>Now it's right here for ya, if you don't get it, it ain't no fault of mine <relationship
+            atmosphere="positive">You know there honey in each rose for the Bee It's up to him to
+            get it, you will agree</relationship>
+        <description possessive="yes" tone="positive" gender="female" referent="self">I've got
+            something that will surprise you Something I know will hypnotize you Papa</description>
+        Right here for you, if you don't get it It ain't no fault of mine, Sweet Lawd, babe T'aint
+        no fault of mine</verse>
+</song>
