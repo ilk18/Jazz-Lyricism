@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../jazz-schema_clean%20copy.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Lonesome Mama Blues</title>
+        <sung-by> Mamie Smith </sung-by>
+        <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
+        <written-by> Anna Welker Brown, Billie Brown, E. Nickel</written-by>
+        <publish-date> 1922</publish-date>
+        <moral>Relationships, sexuality</moral>
+    </metadata>
+    <verse>You hear the whistle blow I want you all to know <action present="yes"
+            who="third party entity" type="direct">That train is taking</action>
+        <relationship atmosphere="negative">my sweet man away From me today</relationship></verse>
+
+    <verse>Don't know the reason why <action present="yes" who="self" type="direct">I must sigh and
+            cry </action>But somethin' 'bout him makes me feel this way That's why I say...</verse>
+
+    <verse><mental-health who="self" state="negative">I've got those lonesome mama blues </mental-health>
+        <cause fault="no love">Since my love has been refused My poor heart's grievin'</cause><cause
+            fault="abandonment">because he's leavin' me </cause>But wait and see <mental-health
+            who="self" state="positive">Some day he'll come back again On that very same old
+            train</mental-health>I know he'll never find <description possessive="yes"
+            tone="positive" gender="female" referent="self">Another gal so good and
+            kind</description></verse>
+
+    <verse>Every night upon my knees <action present="yes" who="self" type="direct"> I pray the Lord
+            above "Hear my plea</action>
+        <cause fault="abandonment">Send back to me The only man I love!"</cause></verse>
+
+    <verse>Lord, my prayer, now don't refuse His sweet love don't let me lose!" <mental-health
+            who="self" state="negative">I'm just a lonesome mama Singin' lonesome mama
+            blues</mental-health>
+    </verse>
+</song>
