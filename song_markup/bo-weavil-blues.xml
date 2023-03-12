@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>Bo-Weavil Blues</title>
