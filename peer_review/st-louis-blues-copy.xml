@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>The St. Louis Blues</title>
+        <sung-by>Bessie Smith</sung-by>
+        <written-by>W.C. Handy</written-by>
+        <publish-date>1925</publish-date>
+        <moral>Love</moral>
+    <!-- same moral question as previous - need to clarify definition -->
+    </metadata>
+    <verse>
+        <line-start/>I hate to see the evening' sun go down 
+        <line-start/>I hate to see the evening'sun go down 
+        <line-start/><mental-health state = "negative">It makes me think I'm on my last go 'round</mental-health> 
+    </verse>
+    <verse>
+        <line-start/><mental-health state = "negative">Feeling' tomorrow like I feel today 
+        <line-start/>Feeling' tomorrow like I feel today</mental-health>
+        <line-start/><action present="yes" who="self" type="direct">'ll pack my grip and make my getaway</action></verse>
+    <verse>
+        <line-start/>Saint Louis woman with her diamond rings 
+        <!-- i'd consider adding a <money status="static" quantity="enough"> tag -->
+        <line-start/><description type="negative" gender="female">Pulls that man around by her apron strings</description> 
+            <line-start/><cause fault="abandonment" who="woman">Wasn't for powder and the store-bought hair
+        <line-start/>The man I love wouldn't go nowhere, nowhere</cause></verse>
+    <verse>
+        <line-start/>I got them Saint Louis Blues; just as blue as I can be 
+        <!-- I would add a <mental-health state="negative" who="self"> tag -->
+        <line-start/><cause fault="no love" who="man">He's got a heart like a rock cast in the sea</cause>
+        <!-- there shouldn't be a who attribute on this <cause> tag-->
+        <line-start/>Or else he wouldn't have gone so far from me
+        <!-- i'd consider adding a <cause fault="abandonment"> tag here -->
+    </verse>
+</song>
+
+<!-- 
+    Not sure if the action is correct.
+-->

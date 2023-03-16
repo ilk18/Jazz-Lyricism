@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../jazz-schema_clean%20copy.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- obligatory line-start/ note -->
+<song>
+    <metadata>
+        <title>Lonesome Mama Blues</title>
+        <sung-by> Mamie Smith </sung-by>
+        <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
+        <written-by> Anna Welker Brown, Billie Brown, E. Nickel</written-by>
+        <publish-date> 1922</publish-date>
+        <moral>Relationships, sexuality</moral>
+        <!-- is moral for the subject of the song or for the moral of the song -->
+    </metadata>
+    <verse>You hear the whistle blow I want you all to know <action present="yes"
+            who="third party entity" type="direct">That train is taking</action>
+        <relationship atmosphere="negative">my sweet man away From me today</relationship></verse>
+    <!-- i would extend the action tag to include at least to "away" if not to the end of the verse.
+        i'm unsure of why the relationship tag is negative here as the man is only being described positively
+        i would consider adding a description tag for the "my sweet man" phrase-->
+
+    <verse>Don't know the reason why <action present="yes" who="self" type="direct">I must sigh and
+            cry </action>
+        <!-- i would change this to be type="indirect" as she is not taking any direct actions to change her situation -->
+        But somethin' 'bout him makes me feel this way That's why I say...</verse>
+
+    <verse><mental-health who="self" state="negative">I've got those lonesome mama blues </mental-health>
+        <cause fault="no love">Since my love has been refused My poor heart's grievin'</cause>
+        <!-- maybe add a <mental-health state="negative" to "my poor heart's grieving" -->
+        <cause
+            fault="abandonment">because he's leavin' me </cause>But wait and see <mental-health
+            who="self" state="positive">Some day he'll come back again On that very same old
+                <!-- i would consider adding an action tag for his return on the train -->
+            train</mental-health>I know he'll never find <description possessive="yes"
+            tone="positive" gender="female" referent="self">Another gal so good and
+            kind</description></verse>
+
+    <verse>Every night upon my knees <action present="yes" who="self" type="direct"> I pray the Lord
+            above "Hear my plea</action>
+        <!-- I would change this to be type="indirect" because she is doing nothing to actively change her situation -->
+        <cause fault="abandonment">Send back to me The only man I love!"</cause></verse>
+
+    <verse>Lord, my prayer, now don't refuse His sweet love don't let me lose!" <mental-health
+            who="self" state="negative">I'm just a lonesome mama Singin' lonesome mama
+            blues</mental-health>
+    </verse>
+</song>

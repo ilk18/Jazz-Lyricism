@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Nobody Knows when You're Down and Out</title>
+        <sung-by>Bessie Smith</sung-by>
+        <written-by>Jimmie Cox</written-by>
+        <publish-date>1924</publish-date>
+        <moral>Loneliness</moral>
+        <!-- need to clarify moral tag for this project -->
+    </metadata>
+    <verse>
+        <line-start/><money quantity="enough" status="static">Once I lived a life of a millionaire
+        <line-start/>Spendin' my money, I didn't care
+            <!-- change to status="lost" because through buying things the singer is losing money-->
+        <line-start/>I carried my friends out for a good time
+        <line-start/>Buy bootleg liquor, champagne, and wine</money>
+    </verse> 
+    <verse>
+        <line-start/><money quantity="lacking" status="lost">When I begin to fall so low</money>
+        <line-start/>I didn't have a friend and no place to go
+        <line-start/>But if I ever get my hands on a dollar again
+        <line-start/>I'm gonna hold on to it 'til them eagles grin
+        <!-- I would consider adding an action tag here for the action of holding onto money -->
+    </verse>
+    <verse>
+        <line-start/>Nobody knows you
+        <line-start/>When you down and out
+        <line-start/><money quantity="lacking" status="lost">In my pocket not one penny</money>
+        <!-- i would change status to ="static" because the line isn't describing the singer losing any money, just that she has none -->
+        <line-start/>And my friends, I haven't any
+    </verse>    
+    <verse>
+        <line-start/>But if I ever get on my feet again
+        <line-start/>And I'll meet my long-lost friend
+        <line-start/>It's mighty strange without a doubt
+        <line-start/>Nobody knows you when you down and out
+        <line-start/>I mean, when you down and out
+        <!-- I'd consider the possibility of adding a <mental-health state="negative"> tag somewhere around here
+            just because the singer is clearly unhappy.-->
+    </verse>    
+    <verse>
+        <line-start/>Mmm
+        <line-start/>When you down and out
+        <line-start/><money quantity="lacking" status="lost">Mmm, not one penny</money>
+           <!-- same status="static" comment as above -->
+        <line-start/>And my friends, I haven't any
+    </verse>    
+    <verse>
+        <line-start/>Mmm, and I fell so low
+        <line-start/><relationship atmosphere="negative">Nobody wants me 'round their door
+        <line-start/>Mmm, without a doubt
+        <line-start/>No man can use you when you down and out</relationship>
+        <line-start/>I mean when you down and out
+    </verse>
+</song>
+<!-- 
+    Not sure if current-quantity is too redundant.
+-->
