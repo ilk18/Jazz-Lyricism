@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Last Minute Blues</title>
+        <sung-by>Ma Rainey</sung-by>
+        <written-by>T. Dorsey</written-by>
+        <publish-date>February, 1924</publish-date>
+        <moral>negative spiral</moral>
+    </metadata>
+    <verse>
+        <line-start/>Minutes seem like hours, hours seem like days 
+        <line-start/>Minutes seem like hours, hours seem like days 
+        <line-start/><action present="no" who="opposite party">It seem like <description possessive="yes" tone="negative" gender="male" referent="other">my daddy won't stop his evil ways</description></action></verse>
+    
+    <verse>
+        <line-start/><mental-health state="negative" who="self">Seem like every minute's going to be my last</mental-health> 
+        <line-start/><mental-health state="negative" who="self">Seem like every minute's going to be my last</mental-health> 
+        <line-start/><action present="yes" who="self" type="indirect">If I can't tell my future I won't tell my past</action></verse>
+    
+    
+    <verse>
+        <line-start/>The brook runs into the river, river runs into the sea 
+        <line-start/>The brook run into the river, river run into the sea 
+        <line-start/><action present="no" who="third party entity">If I don't run into my daddy, somebody'll have to bury me</action></verse>
+    
+    <verse>
+        <line-start/>If anybody asks you who wrote this lonesome song 
+        <line-start/>If anybody asks you who wrote this lonesome song 
+        <line-start/>Tell 'em you don't know the writer, but Ma Rainey put it on</verse>
+</song>
+<!-- 
+  Looks good!
+  Could you clarify this action present="no" on line 25? 
+-->

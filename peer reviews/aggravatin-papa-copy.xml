@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Aggravatin Papa</title>
+        <sung-by>Bessie Smith</sung-by>
+        <written-by>Joseph Robinson and Roy Turk</written-by>
+        <publish-date>1923</publish-date>
+        <moral>Love</moral>
+    </metadata>
+    <verse>
+        <line-start/><description tone="negative" gender="male" possessive="no" referent="other">I know a triflin' man
+            <line-start/><cause fault="abandonment">They call him Triflin' Sam</cause></description>
+        <line-start/>He lives in Birmingham
+        <line-start/>Way down in Alabam'
+    </verse> 
+    <verse>
+        <line-start/>Now the other night
+        <line-start/><action present="yes" who="opposite party" type="direct">He had a fight
+            <line-start/>With a gal named Mandy Brymm</action>
+        <line-start/>She plainly stated she was aggravated
+        <line-start/><action present="yes" who="third party entity">And she shouted out to him</action>
+    </verse>
+    <verse>
+        <line-start/>Aggravatin' papa, don't you try to two-time me
+        <line-start/>I said, don't two-time me
+        <line-start/>Aggravatin' papa, treat me kind or let me be
+        <line-start/>I mean, just let me be
+    </verse>
+    <verse>
+        <line-start/><action present="yes" who="third party entity">Listen while I get you told</action>
+        <line-start/><description tone="positive" gender="male" possessive="no" referent="other">Stop messin' round, sweet jellyroll</description>
+        <line-start/>If you stay out with a high-brown baby
+        <line-start/><action present="yes" who="third party entity">I'll smack you down, and I don't mean maybe</action>
+    </verse>
+    <verse>
+        <line-start/>Aggravatin' papa, I'll do anything you say
+        <line-start/>Anything you say
+        <line-start/>But when you go struttin', do your strut around my way
+        <line-start/>So papa, just treat me pretty, be nice and kind
+        <line-start/><relationship atmosphere="negative">The way you treated me will make me lose my mind</relationship>
+        <line-start/>Aggravatin' papa, don't you try to two-time me
+    </verse>
+    <verse>
+        <line-start/>Just treat me pretty, be nice and sweet
+        <line-start/>I got a darn forty-four that don't repeat
+        <line-start/>Aggravatin' papa, don't you try to two-time me
+    </verse>
+</song>
+<!--
+   Looks good! 
+   I may be misunderstanding, but not sure if "Stop messin' round, sweet jellyroll" (line 32) should be labeled as positive. 
+   The chorus, including the line "don't two-time me," brings up the element we've talked about introducing, which is someone demanding something of another person. How could we convey this?
+-->
