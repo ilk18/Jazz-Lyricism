@@ -17,7 +17,7 @@
             has left me,</cause> I do the best I can. <description possessive="yes" tone="positive"
             gender="female" referent="self">I'm a do-right kid,</description> get a friend and
         replace that man. </verse>
-
+<!-- Maybe span the action to the next weep. Also can refer to the last sentence as an action, possibly. -->
     <verse><mental-health who="self" state="negative">Now I got the don't care blues, can't be
             satisfied. Every night and day I hang my head and cry.</mental-health>
         <action present="yes" who="self" type="direct">I go to the grocery store to buy a rockin'
@@ -25,6 +25,7 @@
             my love has been refused.</cause> Now I got the don't care blues.</verse>
     <verse><mental-health who="self" state="negative">I woke up this mornin' with the blues around
             my head.</mental-health>
+        <!-- Maybe span first mental health to the word satisfied and then mark the part about crying as action. -->
         <cause fault="abandonment"> My baby left me, it nearly killed me dead.</cause> He went away,
         and never had a word to say. <mental-health who="self" state="negative"> Now I'm worried,
             and lonesome deep down in my heart.</mental-health>
@@ -36,4 +37,5 @@
             satisfied. Every night and day I hang my head and cry.</mental-health> I don't wanna
         (indecipherable). The brown I had (indecipherable) not for me. <cause fault="no love">Now my
             love has been refused.</cause> Now I got the don't care blues</verse>
+    <!--possibly same as I mentioned above about action and mental health.-->
 </song>

@@ -13,12 +13,14 @@
         <line> He had a mama, <description type="positive" who="woman"> a loving mama.
             </description></line>
         <line>
+ <!-- This line looks awkward. I do not think it matters? -->
             <relationship condition="negative"> He didn't treat her right.</relationship>
         </line>
         <line> He'd come home, all tired out, </line>
         <line>
             <cause fault="neglect" who="man"> And right to bed he'd go. </cause>
         </line>
+        <!-- I might span the above to multiple lines, starting at he'd come home. -->
         <line>
             <mental-health state="negative" who="woman"> His mama soon got tired of this,
             </mental-health>
@@ -43,6 +45,7 @@
 
     <verse>
         <line> Now, your stance is perfect, Your aim is true, </line>
+        <!-- Maybe something positive here, because she is saying he has good intentions? -->
         <line>
             <description type="negative" who="man"> But papa when you drive, You fail to follow
                 through.</description>
@@ -80,6 +83,7 @@
             </cause>
         </line>
         <line> Your shaft is bent and now you've lost your master stroke. </line>
+        <!-- Maybe mark up here for relationship or description? -->
     </verse>
 
     <verse>
