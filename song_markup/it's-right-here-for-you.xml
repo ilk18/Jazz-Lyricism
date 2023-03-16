@@ -7,7 +7,7 @@
         <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
         <written-by> Perry Bradford </written-by>
         <publish-date> 1920 </publish-date>
-        <moral>Relationships, sexuality</moral>
+        <moral>Relationships, Sexuality</moral>
         <!-- Released as a B side with "Crazy Blues" in 1920 -->
     </metadata>
     <verse>I heard Jim Jackson say to Mandy Green You've been the <description possessive="yes"
@@ -21,10 +21,12 @@
     <verse>It's right here for ya, if you don't get it, it ain't no fault of mine <relationship
             atmosphere="positive">You know there's honey in each rose for the Bee It's up to him to
             get it, you will agree </relationship>
+        <!-- Not sure if the relationship tag is adequate above-->
         <description possessive="yes" tone="positive" gender="female" referent="self">I've got a
             lovin' disposition</description> So dear, I'm in the same position Cause it's right here
         for you If you don't get it, it ain't no fault of mine Sweet Lawd, babe Taint no fault of
         mine</verse>
+    <!-- Maybe spann description to whole verse above -->
 
     <verse>When they got married and they settled down <relationship atmosphere="negative"><cause
                 fault="abandonment">He'd stay out late at night to roam around</cause>
@@ -40,4 +42,5 @@
             something that will surprise you Something I know will hypnotize you Papa</description>
         Right here for you, if you don't get it It ain't no fault of mine, Sweet Lawd, babe T'aint
         no fault of mine</verse>
+    <!-- The lasr sentence above might be marked something to do with self-reliance or independence because she is saying she is fine if he does not come. Are there no lines? -->
 </song>

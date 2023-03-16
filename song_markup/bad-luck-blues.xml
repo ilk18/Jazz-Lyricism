@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>Bad Luck Blues</title>
@@ -16,13 +16,15 @@
 
     <verse>
         <line-start/>Did you ever wake up just at the break of day? 
-        <line-start/>Did you ever break up just at the wake of day? 
+        <line-start/>Did you ever break up just at the wake of day?
+        <!--Maybe add something about mental health above-->
         <line-start/><cause fault="abandonment">With your arms around the pillow where your daddy used to lay?</cause></verse>
         <!-- abandonment or death? -->
 
     <verse>
         <line-start/>Lord, look where the sun done gone
-        <line-start/>Lord, Lord, look where the sun done gone 
+        <line-start/>Lord, Lord, look where the sun done gone
+        <!-- Maybe mental health above for two lines about sun -->
         <line-start/>Hey Lord, there's something going all wrong</verse>
 
     <verse>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../jazz-schema_clean%20copy.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- obligatory line-start/ comment -->
+<song>
+    <metadata>
+        <title>Stack O'Lee Blues</title>
+        <sung-by> Ma Rainey</sung-by>
+        <performed-by> Ma Rainey's Georgia Jazz Band</performed-by>
+        <written-by>Jasper Taylor</written-by>
+        <publish-date>1926</publish-date>
+        <moral>Abuse, violence</moral>
+        <!-- we should finalize what our moral tag should be -->
+    </metadata>
+
+    <verse>Stack O' Lee was <description possessive="yes" tone="negative" gender="male"
+            referent="other">a bad man</description> 
+        <!-- i'm unsure of the reason for the possesive attribute being "yes" -->
+        Everybody knows And when they see Stack O' Lee
+        comin' They'd give him the road <relationship atmosphere="negative">He was my man But he
+            done me wrong</relationship></verse>
+
+
+    <verse>Stack O' Lee, Stack O' Lee <description possessive="yes" tone="negative" gender="male"
+            referent="other">Was short-tempered and bad</description>
+        <!-- same confusion regarding possessive="yes" attribute -->
+        <cause fault="abuse">He'd take everything his women would bring And everything they
+            had</cause>
+        <relationship atmosphere="negative">He was my man But he done me
+        wrong</relationship></verse>
+
+    <verse>Stack O' Lee's on the warpath And you'd better run <description possessive="yes"
+            tone="negative" gender="male" referent="other">'Cause Stack O' Lee is a bad
+            man</description>
+        <!-- smae confusion regarding possissive="yes" attribute -->
+        <action present="yes" who="opposite party" type="direct">And he'll kill you</action> just
+        for fun He was my man But he done you wrong</verse>
+
+    <verse>Stack O' Lee's in jail now With <action present="yes" who="opposite party" type="direct">
+            face turned to the wall</action>
+        <!-- i would remove the <action> tag -->
+        <cause fault="abuse">Pretty women and old corn whiskey Was the cause of it all </cause> He
+        was my man But hе done you wrong </verse>
+
+    <verse><money status="static" quantity="enough">A hundred-dollar coffin And a
+            eighty-dollar hat</money>
+        <action present="yes" who="third party entity" type="direct">Carriеd him to the
+            cemetery</action> But it did not bring him back He was my man But he done me wrong
+    </verse>
+</song>

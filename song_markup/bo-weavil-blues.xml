@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>Bo-Weavil Blues</title>
         <sung-by>Ma Rainey</sung-by>
         <written-by>Ma Rainey</written-by>
         <publish-date>February, 1924</publish-date>
-        <moral>self reliance</moral>
+        <moral>Self-Reliance</moral>
     </metadata>
     <verse>
         <line-start/>Hey, bo-weavil, don't sing the blues no more 
         <line-start/>Hey, hey, bo-weavil, don't sing the blues no more 
         <line-start/>Bo-weavil's here, bo-weavil's everywhere you go</verse>
+    <!-- Not sure if we want to tag the above with negative mental health-->
 
     <verse>
         <line-start/><description possessive="no" tone="negative" gender="female" referent="self">I'm a lone bo-weavil</description>, been out a great long time 
