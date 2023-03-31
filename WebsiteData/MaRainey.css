@@ -1,0 +1,129 @@
+
+.flex-container {
+    display: flex;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+
+p {float:left;}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.button-container button {
+    background-color: CornFlowerBlue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-family: "CopperPlate", fantasy;
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+.hidden {
+    display: none;
+}
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    background: rgba(25, 25, 112);
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-family: "CopperPlate", fantasy;
+    text-align: center; /* added line */
+}
+
+.navigation a:hover {
+    background: #1565C0;
+}
+
+@media all and (max-width : 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width : 600px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(0, 0, 128);
+        border-bottom: 1px solid rgba(0, 0, 128);
+    }
+    .navigation li:last-of-type a {
+        border-bottom: solid;
+        border-top: solid;
+        color: black;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-rows: 150px;
+}
+
+audio {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+}
+#button-container button {
+    background-color: #4CAF50;
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    font-family: "CopperPlate", fantasy;
+}
+h2 {
+    font-family: "CopperPlate", fantasy;
+}
+h1 {
+    font-family: "CopperPlate", fantasy;
+}
+p {
+    font-family: "CopperPlate", fantasy;
+}
+audio {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
