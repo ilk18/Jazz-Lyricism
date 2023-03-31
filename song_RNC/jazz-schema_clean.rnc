@@ -10,7 +10,7 @@ sung-by = element sung-by {text}
 performed-by = element performed-by {text}
 written-by = element written-by {text}
 publish-date = element publish-date {text}
-moral = element moral {text}
+moral = element moral {text} #3-4 word "moral of the story". Change to theme?
 
 #verses
 #structure
@@ -20,15 +20,16 @@ line-start = element line-start {empty}
 #foundational elements/attributes
 action = element action {present, who, type?, mixed {(description | cause | mental-health | relationship | money | line-start)*}}
     present = attribute present {"yes" | "no"}
-    who = attribute who {"self" | "opposite party" | "third party entity"}
-    type = attribute type {"direct" | "indirect"}
+    who = attribute who {"self" | "opposite party" | "third party entity"} #narrator/opposite party? man/woman?
+    type = attribute type {"direct" | "indirect"} #strike? #change to active/passive
 description = element description {possessive, tone, gender, referent, mixed {(action | cause | mental-health | relationship | money | line-start)*}}
-    possessive = attribute possessive {"yes" | "no"}
+    possessive = attribute possessive {"yes" | "no"} #???
     tone = attribute tone {"positive" | "negative" | "neutral"}
     gender = attribute gender {"female" | "male"}
     referent = attribute referent {"self" | "other"}
 cause = element cause {fault, mixed {(action | description | mental-health | relationship | money | line-start)*}}
-    fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "family" | "x"}
+    fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "family" | "x"} #add cheating? no love --> falling out of love? Death..? Remove 'x'
+    #strike family
 
 #secondary elements/attributes
 mental-health = element mental-health {state, who, mixed {(action | description | cause | relationship | money | line-start)*}}
