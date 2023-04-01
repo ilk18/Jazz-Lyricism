@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <metadata>
+        <title>Down Hearted Blues</title>
+        <sung-by>Bessie Smith</sung-by>
+        <written-by>Lovie Austin and Alberta Hunter</written-by>
+        <publish-date>1922</publish-date>
+        <moral>Cheating/Love</moral>
+    </metadata>
+    <verse>
+        <line-start/><cause fault="no love">Gee, but it's hard to love someone when that someone don't love you!</cause>
+        <line-start/><mental-health state="negative" who="self">I'm so disgusted, heart-broken, too; I've got those down-hearted blues;</mental-health>
+        <line-start/><relationship atmosphere="negative">Once I was crazy 'bout a man; he mistreated me all the time</relationship>
+        <line-start/>The next man I get has got to promise me to be mine, all mine!
+    </verse>
+    <verse>
+        <line-start/>Trouble, trouble, I've had it all my days
+        <line-start/>Trouble, trouble, I've had it all my days;
+        <line-start/><mental-health state="negative" who="self">It seems like trouble going to follow me to my grave</mental-health>
+    </verse>
+    <verse>
+        <line-start/>I ain't never loved but three men in my life;
+        <line-start/>I ain't never loved but three men in my life:
+        <line-start/>My father, my brother, the man that wrecked my life
+    </verse>
+    <verse>
+        <line-start/>It may be a week, it may be a month or two
+        <line-start/>It may be a week, it may be a month or two
+        <line-start/><action present="yes" who="self" type="indirect">But the day you quit me, honey, it's comin' home to you</action>
+    </verse>
+    <verse>
+        <line-start/>I got the world in a jug, the stopper's in my hand
+        <line-start/>I got the world in a jug, the stopper's in my hand
+        <line-start/><action present="yes" who="self" type="indirect">I'm gonna hold it until you meet some of my demands</action>
+    </verse>
+</song>
+<!--
+    Looks good!
+    I agree that there could be another action element in the last verse. I'm wondering if the action element in line 30 is easy to understand?
+-->
