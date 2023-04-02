@@ -4,13 +4,13 @@ start = song
 song = element song {metadata, verse+}
 
 #metadata
-metadata = element metadata {title, sung-by, performed-by?, written-by, publish-date, moral}
+metadata = element metadata {title, sung-by, performed-by?, written-by, publish-date, theme}
 title = element title {text}
 sung-by = element sung-by {text}
 performed-by = element performed-by {text}
 written-by = element written-by {text}
 publish-date = element publish-date {text}
-moral = element moral {text} #3-4 word "moral of the story". Change to theme?
+theme = element theme {text}
 
 #verses
 #structure
@@ -20,16 +20,19 @@ line-start = element line-start {empty}
 #foundational elements/attributes
 action = element action {present, who, type?, mixed {(description | cause | mental-health | relationship | money | line-start)*}}
     present = attribute present {"yes" | "no"}
-    who = attribute who {"self" | "opposite party" | "third party entity"} #narrator/opposite party? man/woman?
-    type = attribute type {"direct" | "indirect"} #strike? #change to active/passive
+    who = attribute who {"woman" | "man"}
+    type = attribute type {"active" | "passive"}
+        #type= exclusively used when present="yes". 
+        #"active" is used when the woman is taking an active step to change her situation (ex. "I yelled at my man")
+        #"passive" is used when the woman is doing an action that is not directly changing her situation (ex. "I cried over my man leaving")
 description = element description {possessive, tone, gender, referent, mixed {(action | cause | mental-health | relationship | money | line-start)*}}
-    possessive = attribute possessive {"yes" | "no"} #???
+    possessive = attribute possessive {"yes" | "no"}
     tone = attribute tone {"positive" | "negative" | "neutral"}
     gender = attribute gender {"female" | "male"}
     referent = attribute referent {"self" | "other"}
 cause = element cause {fault, mixed {(action | description | mental-health | relationship | money | line-start)*}}
-    fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "family" | "x"} #add cheating? no love --> falling out of love? Death..? Remove 'x'
-    #strike family
+    fault = attribute fault {"no love" | "abuse" | "abandonment" | "money troubles" | "event" | "cheating" | "death"} 
+        #"no love" = "falling out of love"
 
 #secondary elements/attributes
 mental-health = element mental-health {state, who, mixed {(action | description | cause | relationship | money | line-start)*}}
@@ -38,4 +41,4 @@ relationship = element relationship {atmosphere, mixed {(action | description | 
     atmosphere = attribute atmosphere {"positive" | "negative" | "neutral"}
 money = element money {status, current-quantity, mixed {(action | description | cause | mental-health | relationship | line-start)*}}
     status = attribute status {"gained" | "lost" | "static"}
-    current-quantity = attribute quantity {"lacking" | "enough"}
+    current-quantity = attribute current-quantity {"lacking" | "enough"}
