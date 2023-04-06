@@ -6,7 +6,10 @@
     width: 50%;
 }
 
-p {float:left;}
+p {
+    float: left;
+    font-family: "CopperPlate", fantasy;
+}
 
 .button-container {
     display: flex;
@@ -16,7 +19,7 @@ p {float:left;}
 
 
 .button-container button {
-    background-color: CornFlowerBlue;
+    background-color: rgba(25, 25, 112);
     border: none;
     color: white;
     padding: 10px;
@@ -39,7 +42,7 @@ section {
 .navigation {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: center;
     list-style: none;
     margin: 0;
     background: rgba(25, 25, 112);
@@ -99,13 +102,13 @@ p {
 #button-container button {
     background-color: #4CAF50;
     border: none;
-    color: white; 
-    padding: 15px 32px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 16px; 
-    margin: 4px 2px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
     font-family: "CopperPlate", fantasy;
 }
@@ -115,11 +118,49 @@ h2 {
 h1 {
     font-family: "CopperPlate", fantasy;
 }
-p {
-    font-family: "CopperPlate", fantasy;
-}
 audio {
     display: block;
     margin: auto;
     max-width: 100%;
 }
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(25, 25, 112);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: .90;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: "CopperPlate", fantasy;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft */
