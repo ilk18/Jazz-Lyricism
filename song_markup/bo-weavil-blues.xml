@@ -6,7 +6,7 @@
         <sung-by>Ma Rainey</sung-by>
         <written-by>Ma Rainey</written-by>
         <publish-date>February, 1924</publish-date>
-        <moral>Self-Reliance</moral>
+        <theme>Self-Reliance</theme>
     </metadata>
     <verse>
         <line-start/>Hey, bo-weavil, don't sing the blues no more 
@@ -17,7 +17,7 @@
     <verse>
         <line-start/><description possessive="no" tone="negative" gender="female" referent="self">I'm a lone bo-weavil</description>, been out a great long time 
         <line-start/><description possessive="no" tone="negative" gender="female" referent="self">I'm a lone bo-weavil</description>, been out a great long time 
-        <line-start/><action present="yes" who="self" type="direct">I'm gonna sing these blues to ease the <mental-health state="negative" who="self">bo-weavil's lonesome mind</mental-health></action></verse>
+        <line-start/><action present="yes" who="woman" type="active">I'm gonna sing these blues to ease the <mental-health state="negative" who="woman">bo-weavil's lonesome mind</mental-health></action></verse>
 
     <verse>
         <line-start/>I don't want no man to put no sugar in my tea 
@@ -25,7 +25,7 @@
         <line-start/><description possessive="no" tone="negative" gender="male" referent="other">Some of them so evil</description>, I'm 'fraid they might poison me</verse>
 
     <verse>
-        <line-start/><action present="yes" who="self" type="direct">I went downtown and <money status="lost" quantity="enough">bought me a hat</money> 
+        <line-start/><action present="yes" who="woman" type="active">I went downtown and <money status="lost" current-quantity="enough">bought me a hat</money> 
         <line-start/>I brought it back home, I laid it on the shelf </action>
-        <line-start/>Looked at my bed, <mental-health state="negative" who="self">I'm gettin' tired of sleeping by myself</mental-health></verse>
+        <line-start/>Looked at my bed, <mental-health state="negative" who="woman">I'm gettin' tired of sleeping by myself</mental-health></verse>
 </song>

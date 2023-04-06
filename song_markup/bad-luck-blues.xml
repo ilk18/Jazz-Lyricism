@@ -6,12 +6,12 @@
         <sung-by>Ma Rainey</sung-by>
         <written-by>L. Austin</written-by>
         <publish-date>March, 1924</publish-date>
-        <moral>inability to move on</moral>
+        <theme>inability to move on</theme>
     </metadata>
 
     <verse>
-        <line-start/>Hey people, <action present="yes" who="self" type="direct">listen while I spread my news</action> 
-        <line-start/>Hey people, <action present="yes" who="self" type="direct">listen while I spread my news</action> 
+        <line-start/>Hey people, <action present="yes" who="woman" type="active">listen while I spread my news</action> 
+        <line-start/>Hey people, <action present="yes" who="woman" type="active">listen while I spread my news</action> 
         <line-start/>I wanna tell you people all about my bad luck blues</verse>
 
     <verse>
@@ -28,7 +28,7 @@
         <line-start/>Hey Lord, there's something going all wrong</verse>
 
     <verse>
-        <line-start/><mental-health state="negative" who="self">What’s the use of livin', you can't get the man you love 
+        <line-start/><mental-health state="negative" who="woman">What’s the use of livin', you can't get the man you love 
         <line-start/>The use of livin’, you can't get the man you love 
-        <line-start/><action present="yes" who="self" type="indirect">You might as well just die, give your soul to the Maker above</action></mental-health></verse>
+        <line-start/><action present="yes" who="woman" type="passive">You might as well just die, give your soul to the Maker above</action></mental-health></verse>
 </song>
