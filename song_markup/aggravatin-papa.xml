@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>Aggravatin Papa</title>
         <sung-by>Bessie Smith</sung-by>
         <written-by>Joseph Robinson and Roy Turk</written-by>
         <publish-date>1923</publish-date>
-        <moral>Love</moral>
+        <theme>Love</theme>
     </metadata>
     <verse>
         <line-start/><description tone="negative" gender="male" possessive="no" referent="other">I know a triflin' man
@@ -16,10 +16,10 @@
     </verse> 
     <verse>
        <line-start/>Now the other night
-       <line-start/><action present="yes" who="opposite party" type="direct">He had a fight
+       <line-start/><action present="yes" who="man" type="active">He had a fight
         <line-start/>With a gal named Mandy Brymm</action>
        <line-start/>She plainly stated she was aggravated
-        <line-start/><action present="yes" who="third party entity">And she shouted out to him</action>
+        <line-start/><action present="yes" who="woman">And she shouted out to him</action>
     </verse>
     <verse>
        <line-start/>Aggravatin' papa, don't you try to two-time me
@@ -28,10 +28,10 @@
        <line-start/>I mean, just let me be
     </verse>
     <verse>
-        <line-start/><action present="yes" who="third party entity">Listen while I get you told</action>
+        <line-start/><action present="yes" who="woman">Listen while I get you told</action>
         <line-start/><description tone="positive" gender="male" possessive="no" referent="other">Stop messin' round, sweet jellyroll</description>
         <line-start/>If you stay out with a high-brown baby
-        <line-start/><action present="yes" who="third party entity">I'll smack you down, and I don't mean maybe</action>
+        <line-start/><action present="yes" who="woman">I'll smack you down, and I don't mean maybe</action>
     </verse>
     <verse>
          <line-start/>Aggravatin' papa, I'll do anything you say
@@ -47,6 +47,3 @@
          <line-start/>Aggravatin' papa, don't you try to two-time me
      </verse>
 </song>
-<!--
-    Confused about "entity" because it turns to be singers perspective but it is from another woman. Should we add possesion when it describes two timing because she is referring to owning him in relationship?
--->

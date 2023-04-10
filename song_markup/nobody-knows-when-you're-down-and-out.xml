@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>Nobody Knows when You're Down and Out</title>
         <sung-by>Bessie Smith</sung-by>
         <written-by>Jimmie Cox</written-by>
         <publish-date>1924</publish-date>
-        <moral>Loneliness</moral>
+        <theme>Loneliness</theme>
     </metadata>
     <verse>
-        <line-start/><money quantity="enough" status="static">Once I lived a life of a millionaire
+        <line-start/><money current-quantity="lacking" status="lost">Once I lived a life of a millionaire
         <line-start/>Spendin' my money, I didn't care
         <line-start/>I carried my friends out for a good time
         <line-start/>Buy bootleg liquor, champagne, and wine</money>
     </verse> 
     <verse>
-        <line-start/><money quantity="lacking" status="lost">When I begin to fall so low</money>
+        <line-start/><money current-quantity="lacking" status="lost">When I begin to fall so low</money>
         <line-start/>I didn't have a friend and no place to go
         <line-start/>But if I ever get my hands on a dollar again
         <line-start/>I'm gonna hold on to it 'til them eagles grin
@@ -23,7 +23,7 @@
     <verse>
         <line-start/>Nobody knows you
         <line-start/>When you down and out
-        <line-start/><money quantity="lacking" status="lost">In my pocket not one penny</money>
+        <line-start/><money current-quantity="lacking" status="lost">In my pocket not one penny</money>
         <line-start/>And my friends, I haven't any
     </verse>    
     <verse>
@@ -36,7 +36,7 @@
     <verse>
         <line-start/>Mmm
         <line-start/>When you down and out
-        <line-start/><money quantity="lacking" status="lost">Mmm, not one penny</money>
+        <line-start/><money current-quantity="lacking" status="lost">Mmm, not one penny</money>
         <line-start/>And my friends, I haven't any
     </verse>    
     <verse>
@@ -47,6 +47,3 @@
         <line-start/>I mean when you down and out
     </verse>
 </song>
-<!-- 
-    Not sure if current-quantity is too redundant.
--->

@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>The St. Louis Blues</title>
         <sung-by>Bessie Smith</sung-by>
         <written-by>W.C. Handy</written-by>
         <publish-date>1925</publish-date>
-        <moral>Love</moral>
+        <theme>Love</theme>
     </metadata>
     <verse>
         <line-start/>I hate to see the evening' sun go down 
         <line-start/>I hate to see the evening'sun go down 
-        <line-start/><mental-health state = "negative">It makes me think I'm on my last go 'round</mental-health> 
+        <line-start/><mental-health state = "negative" who="woman">It makes me think I'm on my last go 'round</mental-health> 
     </verse>
     <verse>
-        <line-start/><mental-health state = "negative">Feeling' tomorrow like I feel today 
+        <line-start/><mental-health state = "negative" who="woman">Feeling' tomorrow like I feel today 
         <line-start/>Feeling' tomorrow like I feel today</mental-health>
-        <line-start/><action present="yes" who="self" type="direct">'ll pack my grip and make my getaway</action></verse>
+        <line-start/><action present="yes" who="woman" type="active">'ll pack my grip and make my getaway</action></verse>
     <verse>
         <line-start/>Saint Louis woman with her diamond rings 
-        <line-start/><description type="negative" gender="female">Pulls that man around by her apron strings</description> 
-            <line-start/><cause fault="abandonment" who="woman">Wasn't for powder and the store-bought hair
+        <line-start/><description tone="negative" gender="female" referent="other" possessive="no" >Pulls that man around by her apron strings</description> 
+            <line-start/><cause fault="abandonment">Wasn't for powder and the store-bought hair
         <line-start/>The man I love wouldn't go nowhere, nowhere</cause></verse>
     <verse>
         <line-start/>I got them Saint Louis Blues; just as blue as I can be 
-        <line-start/><cause fault="no love" who="man">He's got a heart like a rock cast in the sea</cause>
+        <line-start/><cause fault="no love">He's got a heart like a rock cast in the sea</cause>
         <line-start/>Or else he wouldn't have gone so far from me
     </verse>
 </song>
-
-<!-- 
-    Not sure if the action is correct.
--->

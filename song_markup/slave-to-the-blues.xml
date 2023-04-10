@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../song_RNC/jazz-schema_clean.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title>Slave to the Blues</title>
         <sung-by>Ma Rainey</sung-by>
         <written-by>Thomas Dorsey</written-by>
         <publish-date>1926</publish-date>
-        <moral>Love</moral>
+        <theme>Love</theme>
     </metadata>
     <verse>
         <line-start/>Ain't robbed no train, ain't done no hangin' crime
@@ -16,20 +16,17 @@
     <verse>
         <line-start/>Blues, please tell me, do I have to die a slave?
         <line-start/>Blues, please tell me, do I have to die a slave?
-        <line-start/><action present="yes" who="self" type="direct">Do you hear me pleadin', you're going to take me to my grave</action>
+        <line-start/><action present="yes" who="woman" type="active">Do you hear me pleadin', you're going to take me to my grave</action>
     </verse> 
     <verse>
-        <line-start/><mental-health state="negative" who="self">If I could break these chains and let my worried heart go free
+        <line-start/><mental-health state="negative" who="woman">If I could break these chains and let my worried heart go free
             <line-start/>If I could break these chains and let my worried heart go free</mental-health>
         <line-start/>But it's too late now, the blues have made a slave of me
     </verse>
     <verse>
-        <line-start/><mental-health state="negative" who="self">You see me ravin', you hear me cryin'
+        <line-start/><mental-health state="negative" who="woman">You see me ravin', you hear me cryin'
         <line-start/>Oh Lord, this wounded heart of mine
         <line-start/>Folks, I'm all grievin' from my hat to my shoes</mental-health>
         <line-start/>I'm a good-hearted woman, just been a slave to the blues
     </verse>
 </song>
-<!-- 
-    Feels like there could be more mark-up but I did not want write too many mental-health. Any other tags?
--->
