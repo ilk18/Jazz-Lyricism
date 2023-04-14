@@ -10,28 +10,41 @@
         <moral>Depression, anger, longing, loneliness</moral>
     </metadata>
     <verse>
-        <mental-health who="self" state="negative">I can't sleep at night I can't eat a
-            bite</mental-health>
-        <cause fault="abuse">'Cause the man I love He don't treat me right</cause>
+        <line-start/><mental-health state="negative">I can't sleep at night
+        <line-start/>I can't eat a bite</mental-health>
+        <line-start/><cause fault="abuse">'Cause the man I love 
+        <line-start/>He don't treat me right
     </verse>
-
-    <verse><relationship atmosphere="negative">He makes me feel so blue</relationship> I don't know
-        what to do <action present="yes" who="self" type="direct"> Sometime I sit and sigh And then
-            begin to cry </action>
-        <cause fault="abandonment">'Cause my best friend Said his last goodbye</cause></verse>
-
-    <verse>There's a change in the ocean Change in the deep blue sea, my baby I'll tell you folks,
-        there ain't no change in me My love for that man will always be</verse>
-
-    <verse>Now <action present="yes" who="self" type="direct">I can read his letters</action> I sure
-        can't read his mind I thought he's lovin' me <cause fault="abandonment">He's leavin' all the
-            time</cause> Now I see my poor love was blind</verse>
-
-    <verse><mental-health who="self" state="negative">Now I got the crazy blues</mental-health>
-        <cause fault="abandonment">Since my baby went away</cause> I ain't got no time to lose I
-        must find him today</verse>
-
-    <verse>Now the doctor's gonna do all that he can But what you're gonna need is an undertaker man
-            <mental-health who="self" state="negative">I ain't had nothin' but bad news Now I got
-            the crazy blues</mental-health></verse>
+    <verse>
+        <line-start/><relationship atmosphere="negative">He makes me feel so blue</relationship> 
+        <line-start/>I don't know what to do 
+        <line-start/><action present="yes" who="woman"> Sometime I sit and sigh 
+        <line-start/>And then begin to cry </action>
+        <line-start/><cause fault="abandonment">'Cause my best friend said his last goodbye</cause>
+    </verse>
+    <verse>
+        <line-start/>There's a change in the ocean
+        <line-start/>Change in the deep blue sea, my baby 
+        <line-start/>I'll tell you folks, there ain't no change in me 
+        <line-start/><cause fault="abandonment">My love for that man will always be</cause>
+    </verse>
+    <verse>
+        <line-start/>Now <action present="yes" who="woman">I can read his letters</action>
+        <line-start/>I sure can't read his mind
+        <line-start/>I thought he's lovin' me
+        <line-start/><cause fault="abandonment">He's leavin' all the time
+        <line-start/>Now I see my poor love was blind</cause>
+    </verse>
+    <verse>
+        <line-start/><mental-health state="negative">Now I got the crazy blues</mental-health>
+        <line-start/><cause fault="abandonment">Since my baby went away
+        <line-start/>I ain't got no time to lose</cause>
+        <line-start/>I must find him today
+    </verse>
+    <verse>
+        <line-start/>Now the doctor's gonna do all that he can
+        <line-start/>But what you're gonna need is an undertaker man <mental-health state="negative">
+        <line-start/>I ain't had nothin' but bad news
+        <line-start/>Now I got the crazy blues</mental-health>
+    </verse>
 </song>

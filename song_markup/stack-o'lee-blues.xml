@@ -9,34 +9,44 @@
         <publish-date>1926</publish-date>
         <moral>Abuse, violence</moral>
     </metadata>
-
-    <verse>Stack O' Lee was <description possessive="yes" tone="negative" gender="male"
-            referent="other">a bad man</description> Everybody knows And when they see Stack O' Lee
-        comin' They'd give him the road <relationship atmosphere="negative">He was my man But he
-            done me wrong</relationship></verse>
-
-
-    <verse>Stack O' Lee, Stack O' Lee <description possessive="yes" tone="negative" gender="male"
-            referent="other">Was short-tempered and bad</description>
-        <cause fault="abuse">He'd take everything his women would bring And everything they
-            had</cause>
-        <relationship atmosphere="negative">He was my man But he done me
-        wrong</relationship></verse>
-
-    <verse>Stack O' Lee's on the warpath And you'd better run <description possessive="yes"
-            tone="negative" gender="male" referent="other">'Cause Stack O' Lee is a bad
-            man</description>
-        <action present="yes" who="opposite party" type="direct">And he'll kill you</action> just
-        for fun He was my man But he done you wrong</verse>
-
-    <verse>Stack O' Lee's in jail now With <action present="yes" who="opposite party" type="direct">
-            face turned to the wall</action>
-        <cause fault="abuse">Pretty women and old corn whiskey Was the cause of it all </cause> He
-        was my man But hе done you wrong </verse>
-
-    <verse><money status="static" quantity="enough">A hundred-dollar coffin And a
-            eighty-dollar hat</money>
-        <action present="yes" who="third party entity" type="direct">Carriеd him to the
-            cemetery</action> But it did not bring him back He was my man But he done me wrong
+    <verse>
+        <line-start/>Stack O' Lee was <description tone="negative" gender="male">a bad man</description> 
+        <line-start/>Everybody knows 
+        <line-start/>And when they see Stack O' Lee comin'
+        <line-start/>They'd give him the road 
+        <line-start/><relationship atmosphere="negative">He was my man 
+        <line-start/>But he done me wrong</relationship>
+    </verse>
+    <verse>
+        <line-start/>Stack O' Lee, Stack O' Lee <description tone="negative" gender="male">
+        <line-start/>Was short-tempered and bad</description>
+        <line-start/><cause fault="abuse"><action present="yes" who="man">He'd take everything his women would bring</action>
+        <line-start/>And everything they had</cause>
+        <line-start/><relationship atmosphere="negative">He was my man
+        <line-start/>But he done me wrong</relationship>
+    </verse>
+    <verse>
+        <line-start/><action present="yes" who="man">Stack O' Lee's on the warpath</action>
+        <line-start/>And you'd better run <description tone="negative" gender="male">
+        <line-start/>'Cause Stack O' Lee is a bad man</description>
+        <line-start/><action present="yes" who="man">And he'll kill you</action> just for fun
+        <line-start/>He was my man
+        <line-start/><cause fault="death">But he done you wrong</cause>
+    </verse>
+    <verse>
+        <line-start/>Stack O' Lee's in jail now 
+        <line-start/><action present="who" who="man">With his face turned to the wall</action>
+        <line-start/><cause fault="cheating">description tone="positive" gender="female">Pretty women</description> and old corn whiskey 
+        <line-start/>Was the cause of it all</cause>
+        <line-start/>He was my man 
+        <line-start/><cause fault="death">But he done you wrong</cause>
+    </verse>
+    <verse>
+        <line-start/><money status="static" quantity="enough">A hundred-dollar coffin 
+        <line-start/>And a eighty-dollar hat</money>
+        <line-start/><action present="yes" who="man">Carriеd him to the cemetery</action> 
+        <line-start/>But it did not bring him back 
+        <line-start/><relationship atmosphere="negative">He was my man 
+        <line-start/>But he done me wrong</relationship>
     </verse>
 </song>

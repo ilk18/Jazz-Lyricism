@@ -9,27 +9,39 @@
         <publish-date> 1922</publish-date>
         <moral>Relationships, sexuality</moral>
     </metadata>
-    <verse>You hear the whistle blow I want you all to know <action present="yes"
-            who="third party entity" type="direct">That train is taking</action>
-        <relationship atmosphere="negative">my sweet man away From me today</relationship></verse>
-
-    <verse>Don't know the reason why <action present="yes" who="self" type="direct">I must sigh and
-            cry </action>But somethin' 'bout him makes me feel this way That's why I say...</verse>
-
-    <verse><mental-health who="self" state="negative">I've got those lonesome mama blues </mental-health>
-        <cause fault="no love">Since my love has been refused My poor heart's grievin'</cause><cause
-            fault="abandonment">because he's leavin' me </cause>But wait and see <mental-health
-            who="self" state="positive">Some day he'll come back again On that very same old
-            train</mental-health>I know he'll never find <description possessive="yes"
-            tone="positive" gender="female" referent="self">Another gal so good and
-            kind</description></verse>
-
-    <verse>Every night upon my knees <action present="yes" who="self" type="direct"> I pray the Lord
-            above "Hear my plea</action>
-        <cause fault="abandonment">Send back to me The only man I love!"</cause></verse>
-
-    <verse>Lord, my prayer, now don't refuse His sweet love don't let me lose!" <mental-health
-            who="self" state="negative">I'm just a lonesome mama Singin' lonesome mama
-            blues</mental-health>
+    <verse>
+        <line-start/>You hear the whistle blow 
+        <line-start/>I want you all to know
+        <line-start/><cause fault="abandonment">That train is taking my <description tone="positive" gender="male">sweet man</description>away
+        <line-start/>From me today</cause>
+    </verse>
+    <verse>
+        <line-start/>Don't know the reason why 
+        <line-start/><mental-health state="negative">I must sigh and cry
+        <line-start/>But somethin' 'bout him makes me feel this way</mental-health>
+        <line-start/>That's why I say...
+    </verse>
+    <verse>
+        <line-start/><mental-health state="negative">I've got those lonesome mama blues </mental-health>
+        <line-start/><cause fault="no-love">Since my love has been refused 
+        <line-start/>My poor heart's grievin'</cause>
+        <line-start/><cause fault="abandonment">Because he's leavin' me </cause>
+        <line-start/>But wait and see
+        <line-start/>Some day he'll come back again
+        <line-start/>On that very same old train
+        <line-start/>I know he'll never find <description tone="positive" gender="female">
+        <line-start/>Another gal so good and kind</description>
+    </verse>
+    <verse>
+        <line-start/><action present="yes" who="woman">Every night upon my knees
+        <line-start/>I pray the Lord above</action>
+        <line-start/>"Hear my plea
+        <line-start/><cause fault="abandonment">Send back to me The only man I love!"</cause>
+    </verse>
+    <verse>
+        <line-start/><cause fault="abandonment">Lord, my prayer, now don't refuse
+        <line-start/>His sweet love don't let me lose!"</cause>
+        <line-start/><mental-health state="negative">I'm just a lonesome mama 
+        <line-start/>Singin' lonesome mama blues</mental-health>
     </verse>
 </song>

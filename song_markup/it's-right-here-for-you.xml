@@ -10,37 +10,38 @@
         <moral>Relationships, Sexuality</moral>
         <!-- Released as a B side with "Crazy Blues" in 1920 -->
     </metadata>
-    <verse>I heard Jim Jackson say to Mandy Green You've been the <description possessive="yes"
-            tone="negative" gender="female" referent="other">cruelest gal I ever seen</description>
-        <action present="yes" who="opposite party" type="direct"> You made me walk you 'round the
-            park last night</action>
-        <action present="yes" who="opposite party" type="direct">then wouldn't kiss me,</action> do
-        you think that's right? Just then Miss Mandy turned around to him She said: Now listen here
-        Jim</verse>
-
-    <verse>It's right here for ya, if you don't get it, it ain't no fault of mine <relationship
-            atmosphere="positive">You know there's honey in each rose for the Bee It's up to him to
-            get it, you will agree </relationship>
-        <!-- Not sure if the relationship tag is adequate above-->
-        <description possessive="yes" tone="positive" gender="female" referent="self">I've got a
-            lovin' disposition</description> So dear, I'm in the same position Cause it's right here
-        for you If you don't get it, it ain't no fault of mine Sweet Lawd, babe Taint no fault of
-        mine</verse>
-    <!-- Maybe spann description to whole verse above -->
-
-    <verse>When they got married and they settled down <relationship atmosphere="negative"><cause
-                fault="abandonment">He'd stay out late at night to roam around</cause>
-            <mental-health who="self" state="negative"> She soon got tired of that,</mental-health>
-            like women do</relationship> Made up her mind that she would stop it too One night
-            <action present="yes" who="self" type="direct"> she waited with a great big
-            club</action> When he came in, she said Bub</verse>
-
-    <verse>Now it's right here for ya, if you don't get it, it ain't no fault of mine <relationship
-            atmosphere="positive">You know there honey in each rose for the Bee It's up to him to
-            get it, you will agree</relationship>
-        <description possessive="yes" tone="positive" gender="female" referent="self">I've got
-            something that will surprise you Something I know will hypnotize you Papa</description>
-        Right here for you, if you don't get it It ain't no fault of mine, Sweet Lawd, babe T'aint
-        no fault of mine</verse>
-    <!-- The lasr sentence above might be marked something to do with self-reliance or independence because she is saying she is fine if he does not come. Are there no lines? -->
+    <verse>
+        <line-start/>I heard Jim Jackson say to Mandy Green 
+        <line-start/><description tone="negative" gender="female">You've been the cruelest gal I ever seen</description>
+        <line-start/><action present="yes" who="woman">You made me walk you 'round the park last night
+        <line-start/>Then wouldn't kiss me,</action> do you think that's right?</action>
+        <line-start/>Just then Miss Mandy turned around to him
+        <line-start/>She said: Now listen here Jim
+    </verse>
+    <verse>
+        <line-start/><description tone="positive" gender="female">It's right here for ya,<cause fault="no-love">if you don't get it, it ain't no fault of mine</cause>
+        <line-start/>It's up to him to get it, you will agree
+        <line-start/>I've got a lovin' disposition
+        <line-start/>So dear, I'm in the same position
+        <line-start/>Cause it's right here for you
+        <line-start/>If you don't get it, it ain't no fault of mine
+        <line-start/>Sweet Lawd, babe Taint no fault of mine</description>
+    </verse>
+    <verse>
+        <line-start/>When they got married and they settled down <relationship atmosphere="negative">
+        <line-start/><cause fault="cheating">He'd stay out late at night to roam around</cause>
+        <line-start/><mental-health state="negative"> She soon got tired of that,</mental-health>like women do</relationship>
+        <line-start/>Made up her mind that she would stop it too
+        <line-start/><action present="yes" who="woman">One night she waited with a great big club
+        <line-start/>When he came in, she said Bub</action>
+    </verse>
+    <verse>
+        <line-start/><description tone="positive" gender="female">It's right here for ya,<cause fault="no-love">if you don't get it, it ain't no fault of mine</cause>
+        <line-start/>It's up to him to get it, you will agree
+        <line-start/>I've got a lovin' disposition
+        <line-start/>So dear, I'm in the same position
+        <line-start/>Cause it's right here for you
+        <line-start/>If you don't get it, it ain't no fault of mine
+        <line-start/>Sweet Lawd, babe Taint no fault of mine</description>
+    </verse>
 </song>
