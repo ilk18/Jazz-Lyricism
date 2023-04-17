@@ -16,7 +16,7 @@
     <verse>
         <line-start/>Blues, please tell me, do I have to die a slave?
         <line-start/>Blues, please tell me, do I have to die a slave?
-        <line-start/><action present="yes" who="woman" type="active">Do you hear me pleadin', you're going to take me to my grave</action>
+        <line-start/><action present="no" who="woman" type="active">Do you hear me pleadin', you're going to take me to my grave</action>
     </verse> 
     <verse>
         <line-start/><mental-health state="negative" who="woman">If I could break these chains and let my worried heart go free

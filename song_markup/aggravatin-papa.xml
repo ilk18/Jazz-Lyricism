@@ -16,10 +16,10 @@
     </verse> 
     <verse>
        <line-start/>Now the other night
-       <line-start/><action present="yes" who="man" type="active">He had a fight
+       <line-start/><action present="no" who="man">He had a fight
         <line-start/>With a gal named Mandy Brymm</action>
        <line-start/>She plainly stated she was aggravated
-        <line-start/><action present="yes" who="woman">And she shouted out to him</action>
+        <line-start/><action present="no" who="woman" type="active">And she shouted out to him</action>
     </verse>
     <verse>
        <line-start/>Aggravatin' papa, don't you try to two-time me
@@ -28,7 +28,7 @@
        <line-start/>I mean, just let me be
     </verse>
     <verse>
-        <line-start/><action present="yes" who="woman">Listen while I get you told</action>
+        <line-start/><action present="no" who="woman" type="active">Listen while I get you told</action>
         <line-start/><description tone="positive" gender="male" possessive="no" referent="other">Stop messin' round, sweet jellyroll</description>
         <line-start/>If you stay out with a high-brown baby
         <line-start/><action present="yes" who="woman">I'll smack you down, and I don't mean maybe</action>
