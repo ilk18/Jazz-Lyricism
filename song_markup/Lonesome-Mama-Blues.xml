@@ -7,29 +7,29 @@
         <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
         <written-by> Anna Welker Brown, Billie Brown, E. Nickel</written-by>
         <publish-date> 1922</publish-date>
-        <moral>Relationships, sexuality</moral>
+        <theme>Relationships, sexuality</theme>
     </metadata>
     <verse>
         <line-start/>You hear the whistle blow 
         <line-start/>I want you all to know
-        <line-start/><cause fault="abandonment">That train is taking my <description tone="positive" gender="male">sweet man</description>away
+        <line-start/><cause fault="abandonment">That train is taking <description possessive="yes" tone="positive" gender="male" referent="other">my sweet man</description>away
         <line-start/>From me today</cause>
     </verse>
     <verse>
         <line-start/>Don't know the reason why 
-        <line-start/><mental-health state="negative">I must sigh and cry
+        <line-start/><mental-health who="woman" state="negative">I must sigh and cry
         <line-start/>But somethin' 'bout him makes me feel this way</mental-health>
         <line-start/>That's why I say...
     </verse>
     <verse>
-        <line-start/><mental-health state="negative">I've got those lonesome mama blues </mental-health>
-        <line-start/><cause fault="no-love">Since my love has been refused 
+        <line-start/><mental-health who="woman" state="negative">I've got those lonesome mama blues </mental-health>
+        <line-start/><cause fault="no love">Since my love has been refused 
         <line-start/>My poor heart's grievin'</cause>
         <line-start/><cause fault="abandonment">Because he's leavin' me </cause>
         <line-start/>But wait and see
         <line-start/>Some day he'll come back again
         <line-start/>On that very same old train
-        <line-start/>I know he'll never find <description tone="positive" gender="female">
+        <line-start/>I know he'll never find <description possessive="no" tone="positive" gender="female" referent="self">
         <line-start/>Another gal so good and kind</description>
     </verse>
     <verse>
@@ -41,7 +41,7 @@
     <verse>
         <line-start/><cause fault="abandonment">Lord, my prayer, now don't refuse
         <line-start/>His sweet love don't let me lose!"</cause>
-        <line-start/><mental-health state="negative">I'm just a lonesome mama 
+        <line-start/><mental-health who="woman" state="negative">I'm just a lonesome mama 
         <line-start/>Singin' lonesome mama blues</mental-health>
     </verse>
 </song>

@@ -7,13 +7,13 @@
         <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
         <written-by>Perry Bradford</written-by>
         <publish-date>1920</publish-date>
-        <moral>Depression, anger, longing, loneliness</moral>
+        <theme>Depression, anger, longing, loneliness</theme>
     </metadata>
     <verse>
-        <line-start/><mental-health state="negative">I can't sleep at night
+        <line-start/><mental-health who="woman" state="negative">I can't sleep at night
         <line-start/>I can't eat a bite</mental-health>
         <line-start/><cause fault="abuse">'Cause the man I love 
-        <line-start/>He don't treat me right
+        <line-start/>He don't treat me right</cause>
     </verse>
     <verse>
         <line-start/><relationship atmosphere="negative">He makes me feel so blue</relationship> 
@@ -36,14 +36,14 @@
         <line-start/>Now I see my poor love was blind</cause>
     </verse>
     <verse>
-        <line-start/><mental-health state="negative">Now I got the crazy blues</mental-health>
+        <line-start/><mental-health who="woman" state="negative">Now I got the crazy blues</mental-health>
         <line-start/><cause fault="abandonment">Since my baby went away
         <line-start/>I ain't got no time to lose</cause>
         <line-start/>I must find him today
     </verse>
     <verse>
         <line-start/>Now the doctor's gonna do all that he can
-        <line-start/>But what you're gonna need is an undertaker man <mental-health state="negative">
+        <line-start/>But what you're gonna need is an undertaker man <mental-health who="woman" state="negative">
         <line-start/>I ain't had nothin' but bad news
         <line-start/>Now I got the crazy blues</mental-health>
     </verse>

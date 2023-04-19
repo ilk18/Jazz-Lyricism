@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../jazz-schema_clean%20copy.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
     <metadata>
         <title> Golfing Papa </title>
@@ -6,16 +7,16 @@
         <performed-by> Mamie Smith and the Jazz Hounds </performed-by>
         <written-by> Perry Bradford </written-by>
         <publish-date> 1920 </publish-date>
-        <moral> Man not putting effort into the relationship, woman leaving the relationship</moral>
+        <theme> Man not putting effort into the relationship, woman leaving the relationship</theme>
     </metadata>
     <verse>
         <line-start/>Golfing Dan was a golfing man
         <line-start/>He'd golf from morn till night.
-        <line-start/>He had a mama,<description tone="positive" gender="female">a loving mama.</description>
+        <line-start/>He had a mama,<description possessive="yes" tone="positive" gender="female" referent="other">a loving mama.</description>
         <line-start/><relationship atmosphere="negative">He didn't treat her right.</relationship>
         <line-start/>He'd come home, all tired out,<action present="yes" who="man">
         <line-start/>And right to bed he'd go.</action>
-        <line-start/><mental-health state="negative">His mama soon got tired of this,</mental-health>
+        <line-start/><mental-health who="woman" state="negative">His mama soon got tired of this,</mental-health>
         <line-start/><action present="yes" who="woman">And these words she whispered low.</action>
     </verse>
     <verse>
@@ -38,8 +39,8 @@
     <verse> 
         <line-start/>Now what you need is a golfin coach,<description possessive="no" tone="positive" gender="male" referent="other">
         <line-start/>You're alright on your drive</description>
-        <line-start/><description tone="negative" gender="male">But bad on your approach.</description> 
-        <line-start/><description tone="positive" gender="female">What you want, your mama has got</description>
+        <line-start/><description possessive="no" tone="negative" gender="male" referent="other">But bad on your approach.</description> 
+        <line-start/><description possessive="no" tone="positive" gender="female" referent="self">What you want, your mama has got</description>
         <line-start/>But son you'd better practice your explosion shot.
     </verse>
     <verse> 
@@ -50,7 +51,7 @@
     </verse>
     <verse> 
         <line-start/>So pack your golf bags you've had your fun
-        <line-start/><action present="yes" who="woman">I found</action><description tone="positive" gender="male">another man who made a hole in one.</description>
+        <line-start/><action present="yes" who="woman">I found</action><description possessive="no" tone="positive" gender="male" referent="other">another man who made a hole in one.</description>
     </verse>
     <verse> 
         <line-start/><relationship atmosphere="negative"> She says, golfing papa you're way over par.

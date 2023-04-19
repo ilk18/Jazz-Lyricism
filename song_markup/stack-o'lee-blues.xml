@@ -7,10 +7,10 @@
         <performed-by> Ma Rainey's Georgia Jazz Band</performed-by>
         <written-by>Jasper Taylor</written-by>
         <publish-date>1926</publish-date>
-        <moral>Abuse, violence</moral>
+        <theme>Abuse, violence</theme>
     </metadata>
     <verse>
-        <line-start/>Stack O' Lee was <description tone="negative" gender="male">a bad man</description> 
+        <line-start/>Stack O' Lee was <description possessive="no" tone="negative" gender="male" referent="other">a bad man</description> 
         <line-start/>Everybody knows 
         <line-start/>And when they see Stack O' Lee comin'
         <line-start/>They'd give him the road 
@@ -18,7 +18,7 @@
         <line-start/>But he done me wrong</relationship>
     </verse>
     <verse>
-        <line-start/>Stack O' Lee, Stack O' Lee <description tone="negative" gender="male">
+        <line-start/>Stack O' Lee, Stack O' Lee <description possessive="no" tone="negative" gender="male" referent="other">
         <line-start/>Was short-tempered and bad</description>
         <line-start/><cause fault="abuse"><action present="yes" who="man">He'd take everything his women would bring</action>
         <line-start/>And everything they had</cause>
@@ -27,7 +27,7 @@
     </verse>
     <verse>
         <line-start/><action present="yes" who="man">Stack O' Lee's on the warpath</action>
-        <line-start/>And you'd better run <description tone="negative" gender="male">
+        <line-start/>And you'd better run <description possessive="no" tone="negative" gender="male" referent="other">
         <line-start/>'Cause Stack O' Lee is a bad man</description>
         <line-start/><action present="yes" who="man">And he'll kill you</action> just for fun
         <line-start/>He was my man
@@ -35,14 +35,14 @@
     </verse>
     <verse>
         <line-start/>Stack O' Lee's in jail now 
-        <line-start/><action present="who" who="man">With his face turned to the wall</action>
-        <line-start/><cause fault="cheating">description tone="positive" gender="female">Pretty women</description> and old corn whiskey 
+        <line-start/><action present="yes" who="man">With his face turned to the wall</action>
+        <line-start/><cause fault="cheating"><description possessive="no" tone="positive" gender="female" referent="other">Pretty women</description> and old corn whiskey 
         <line-start/>Was the cause of it all</cause>
         <line-start/>He was my man 
         <line-start/><cause fault="death">But he done you wrong</cause>
     </verse>
     <verse>
-        <line-start/><money status="static" quantity="enough">A hundred-dollar coffin 
+        <line-start/><money status="static" current-quantity="enough">A hundred-dollar coffin 
         <line-start/>And a eighty-dollar hat</money>
         <line-start/><action present="yes" who="man">Carriеd him to the cemetery</action> 
         <line-start/>But it did not bring him back 
