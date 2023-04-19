@@ -5,25 +5,37 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
-    <xsl:variable name="all-songs" as="document-node()+" select="collection('song_markup/?select=*.xml')"/>
-    <html>
-        <head>
-            <title>Sample output</title>
-        </head>
-        <body>
-            <h1>Songs</h1>
-            <xsl:apply-templates select="$all-songs"/>
-            <ol>
-                <xsl:apply-templates select="$all-songs"/>
-            </ol>
-        </body>
-    </html>
+    <xsl:variable name="all-songs" as="document-node()+"
+        select="collection('../song_markup/?select=*.xml')"/>
+    <xsl:template name="xsl:initial-template">
+        <html>
+            <head>
+                <title>Sample output</title>
+            </head>
+            <body>
+                <h1>Table of Contents</h1>
+                <xsl:apply-templates select="$all-songs//song"/>
+            </body>
+        </html>
+    </xsl:template>
     <xsl:template match="song">
         <xsl:message select="position()"/>
         <section>
-            <h2>Titles</h2>
+            <h2>
+                <xsl:value-of select="metadata/title"/>
+            </h2>
+            <h2>
+                <xsl:value-of select="metadata/sung-by"/>
+            </h2>
+            <xsl:apply-templates select="verse"/> 
         </section>
-        <li><xsl:value-of select="title"/></li>
+    </xsl:template>
+       <xsl:template match="verse">
+           <p>
+           <xsl:apply-templates/>
+           </p>
+    </xsl:template>
+    <xsl:template match="line-start">
+        <br/>
     </xsl:template>
 </xsl:stylesheet>
-    
