@@ -31,7 +31,7 @@
         <line-start/><action present="no" who="woman" type="active">Listen while I get you told</action>
         <line-start/><description tone="positive" gender="male" possessive="no" referent="other">Stop messin' round, sweet jellyroll</description>
         <line-start/>If you stay out with a high-brown baby
-        <line-start/><action present="yes" who="woman">I'll smack you down, and I don't mean maybe</action>
+        <line-start/><action present="yes" who="woman" type="active">I'll smack you down, and I don't mean maybe</action>
     </verse>
     <verse>
          <line-start/>Aggravatin' papa, I'll do anything you say
