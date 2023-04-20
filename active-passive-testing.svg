@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+   <line x1="100"
+         x2="500"
+         y1="500"
+         y2="500"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="100"
+         x2="100"
+         y1="500"
+         y2="250"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="500"
+         x2="500"
+         y1="500"
+         y2="250"
+         stroke="black"
+         stroke-linecap="square"/>
+   <rect x="175"
+         y="100"
+         width="60"
+         height="200"
+         fill="#126ccc"
+         stroke="black"/>
+   <rect x="250"
+         y="100"
+         width="60"
+         height="80"
+         fill="#126ccc"
+         stroke="black"/>
+</svg>
