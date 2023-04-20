@@ -6,7 +6,7 @@
     <xsl:output method="xml" indent="yes"/>
     
     <xsl:variable name="all-songs" as="document-node()+" select="collection('song_markup/?select=*.xml')"/>
-    <xsl:variable name="bar-width" as="xs:double" select="60"/>
+    <xsl:variable name="bar-width" as="xs:double" select="100"/>
     <xsl:template name="xsl:initial-template">
     
         
@@ -24,9 +24,23 @@
             <line x1="500" x2="500" y1="500" y2="250" stroke="black" stroke-linecap="square"/>
             
             <!-- labels -->
+            <!-- title -->
+            <text x="300" y="200" text-anchor="middle" >Women's Actions: Active vs. Passive</text>
+            <!-- active, passive -->
+            <text x="160" y="520" text-anchor="start">Instances of Activity</text>
+            <text x="310" y="520" text-anchor="start">Instances of Passivity</text>
+            <!-- y label -->
+            <text x="-30" y="470" transform="rotate(270 0,400)">Number of Instances</text>
+            <!-- rectangle labels -->
+            <text x="217" y="290">10</text>
+            <text x="373" y="410">4</text>
             
-            <rect x="175" y="100" width="{$bar-width}" height="{count($all-songs//action[@who = 'woman' and @type = 'active'])* 20}" fill="#126ccc" stroke="black"/>
-            <rect x="250" y="100" width="{$bar-width}" height="{count($all-songs//action[@who = 'woman' and @type = 'passive'])* 20}" fill="#126ccc" stroke="black"/>
+            
+            <!-- rectangles -->
+            <xsl:variable name="height1" as="xs:double" select="count($all-songs//action[@who = 'woman' and @type = 'active'])* 20"/>
+            <xsl:variable name="height2" as="xs:double" select="count($all-songs//action[@who = 'woman' and @type = 'passive'])* 20"/>
+            <rect x="175" y="{500-$height1}" width="{$bar-width}" height="{$height1}" fill="#126ccc" stroke="black"/>
+            <rect x="325" y="{500-$height2}" width="{$bar-width}" height="{$height2}" fill="#126ccc" stroke="black"/>
                        
         </svg>
     </xsl:template>
