@@ -23,7 +23,7 @@ p {
     border: none;
     color: white;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -81,7 +81,7 @@ section {
     .navigation li:last-of-type a {
         border-bottom: solid;
         border-top: solid;
-        color: black;
+        color: white;
     }
 }
 
