@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+   <line x1="100"
+         x2="500"
+         y1="500"
+         y2="500"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="100"
+         x2="100"
+         y1="500"
+         y2="300"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="300"
+         x2="300"
+         y1="500"
+         y2="300"
+         stroke="black"
+         stroke-dasharray="10"
+         stroke-width="3"
+         stroke-opacity="20"/>
+   <line x1="500"
+         x2="500"
+         y1="500"
+         y2="300"
+         stroke="black"
+         stroke-linecap="square"/>
+   <rect x="520"
+         y="340"
+         width="25"
+         height="25"
+         fill="white"
+         stroke="black"/>
+   <rect x="520"
+         y="390"
+         width="25"
+         height="25"
+         fill="white"
+         stroke="black"/>
+   <line x1="532.5"
+         x2="532.5"
+         y1="390"
+         y2="415"
+         stroke="black"
+         stroke-dasharray="5"
+         stroke-width="24.5"
+         stroke-opacity="20"/>
+   <text x="550" y="357">- Positive</text>
+   <text x="550" y="407">- Negative</text>
+   <text x="300" y="280" text-anchor="middle">A Comparison of Positive and Negative Descriptions Based on Gender</text>
+   <text x="200" y="520" text-anchor="middle">Women</text>
+   <text x="400" y="520" text-anchor="middle">Men</text>
+   <text x="155" y="350" text-anchor="middle">7</text>
+   <text x="245" y="390" text-anchor="middle">5</text>
+   <text x="355" y="410" text-anchor="middle">4</text>
+   <text x="445" y="350" text-anchor="middle">7</text>
+   <text x="-60" y="470" transform="rotate(270 0,400)">Number of Instances</text>
+   <rect x="125"
+         y="360"
+         width="60"
+         height="140"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="215"
+         y="400"
+         width="60"
+         height="100"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="325"
+         y="420"
+         width="60"
+         height="80"
+         fill="#73b4ff"
+         stroke="black"/>
+   <rect x="415"
+         y="360"
+         width="60"
+         height="140"
+         fill="#73b4ff"
+         stroke="black"/>
+   <line x1="245"
+         x2="245"
+         y1="500"
+         y2="400"
+         stroke="#0d3e75"
+         stroke-dasharray="10"
+         stroke-width="59"
+         stroke-opacity="20"/>
+   <line x1="445"
+         x2="445"
+         y1="500"
+         y2="360"
+         stroke="#41648c"
+         stroke-dasharray="10"
+         stroke-width="59"
+         stroke-opacity="20"/>
+</svg>
