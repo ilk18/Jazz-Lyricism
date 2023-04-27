@@ -9,7 +9,7 @@
     <xsl:variable name="bar-width" as="xs:double" select="60"/>
     <xsl:variable name="y-scale" as="xs:double" select="20"/>
     <xsl:template name="xsl:initial-template">
-        <svg viewBox="0 0 600 600">
+        <svg viewBox="250 100 500 550">
             
             <!-- x axis -->
             <line x1="100" x2="500" y1="500" y2="500" stroke="black" stroke-linecap="square"/>
