@@ -131,3 +131,6 @@ p {
     background-color: #ededff;
     text-align: center;
 }
+ol {
+  text-align: left;
+}
