@@ -1,11 +1,15 @@
-
+p {
+    text-align: center;
+    font-family: "CopperPlate", fantasy;
+    display: inline-block;
+}
 .navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     list-style: none;
     margin: 0;
-    background: #191970;
+    background: rgb(25, 25, 112);
 }
 
 .navigation a {
@@ -25,6 +29,7 @@
     .navigation {
         justify-content: space-around;
     }
+}
 
 @media all and (max-width : 600px) {
     .navigation {
@@ -34,53 +39,23 @@
     .navigation a {
         text-align: center;
         padding: 10px;
-        border-top: 1px solid #000080;
-        border-bottom: 1px solid #000080;
+        border-top: 1px solid rgb(0, 0, 128);
+        border-bottom: 1px solid rgb(0, 0, 128);
     }
     .navigation li:last-of-type a {
         border-bottom: solid;
         border-top: solid;
         color: white;
-    } 
-html {
-    font-family: "CopperPlate", fantasy;
+    }
 }
 
-p {
-    margin-right: 120px;
-    margin-left: 120px;
-    background-color: #bfdcff;
-    border-radius: 25px;
+.grid-container {
+    display: grid;
+    grid-auto-rows: 150px;
+}
+section {
+    margin-top: 20px;
     padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
 }
-
-ul {
-    margin-right: 140px;
-    margin-left: 140px;
-    background-color: #bfdcff;
-    
-}
-
-h1 {
-    text-align: center;
-    background-color: #73b4ff;
-    margin-right: 380px;
-    margin-left: 380px;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-h2 {
-    text-align: center;
-    background-color: #b3d6ff;
-    margin-right: 490px;
-    margin-left: 490px;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-img {
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
