@@ -59,8 +59,9 @@
         border-bottom: solid;
         border-top: solid;
         color: white;
-    }
-h1 {
+    } }
+html {
     font-family: "CopperPlate", fantasy;
 }
-.p {float: center;}
+
+
