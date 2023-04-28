@@ -11,7 +11,7 @@
     <xsl:template name="xsl:initial-template">
     
         
-        <svg viewBox="100 100 300 450">
+        <svg viewBox="20 170 600 375">
            <!-- <xsl:apply-templates select="$all-songs//action"/> -->
             
             <!-- axis markers -->
