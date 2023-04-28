@@ -38,4 +38,34 @@
     <xsl:template match="line-start">
         <br/>
     </xsl:template>
+    <xsl:template match="description">
+        <span class="description">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="action">
+         <span class="action">
+             <xsl:apply-templates/>
+         </span>
+    </xsl:template>
+    <xsl:template match="cause">
+        <span class="cause">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="mental-health">
+        <span class="mental-health">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="relationship">
+        <span class="relationship">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="money">
+        <span class="money">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 </xsl:stylesheet>
