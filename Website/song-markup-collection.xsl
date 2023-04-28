@@ -10,7 +10,7 @@
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
-                <title>Sample output</title>
+                <title>Ma Rainey</title>
                 <link rel="stylesheet" type="text/css" href="ExploretheSongs.css" />
                 <script src="ExploretheSongs.js"></script>
             </head>
@@ -21,14 +21,14 @@
                     <li class="dropdown">
                         <a href="#" class="dropbtn">Explore the Songs</a>
                         <div class="dropdown-content">
-                            <a href="ma_rainey.html">Ma Rainey</a>
-                            <a href="bessie_smith.html">Bessie Smith</a>
-                            <a href="mamie_smith.html">Mamie Smith</a>
+                            <a href="song-markup-collection.xsl">Ma Rainey</a>
+                            <a href="BessieSmith.xsl">Bessie Smith</a>
+                            <a href="MamieSmith.xsl">Mamie Smith</a>
                         </div>
                     </li>
                     <li><a href="TheData.xhtml">Our Findings</a></li>
                 </ul>
-                <xsl:apply-templates select="$all-songs//song"/>
+                <xsl:apply-templates select="$ma-rainey-songs"/>
             </body>
         </html>
     </xsl:template>
@@ -44,10 +44,10 @@
             <xsl:apply-templates select="verse"/> 
         </section>
     </xsl:template>
-       <xsl:template match="verse">
-           <p>
-           <xsl:apply-templates/>
-           </p>
+    <xsl:template match="verse">
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="line-start">
         <br/>

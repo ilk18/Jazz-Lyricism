@@ -1,28 +1,10 @@
-.arrow {
-  border: solid black;
-  border-width: 0 10px 10px 0;
-  display: inline-block;
-  padding: 10px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  float: right;
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  float: left;
-}
 .navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     list-style: none;
     margin: 0;
-    background: rgba(25, 25, 112);
+    background: rgb(25, 25, 112);
 }
 
 .navigation a {
@@ -52,15 +34,39 @@
     .navigation a {
         text-align: center;
         padding: 10px;
-        border-top: 1px solid rgba(0, 0, 128);
-        border-bottom: 1px solid rgba(0, 0, 128);
+        border-top: 1px solid rgb(0, 0, 128);
+        border-bottom: 1px solid rgb(0, 0, 128);
     }
     .navigation li:last-of-type a {
         border-bottom: solid;
         border-top: solid;
         color: white;
     }
-h1 {
-    font-family: "CopperPlate", fantasy;
 }
-.p {float: center;}
+
+body {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+    font-family: "CopperPlate", fantasy;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(0, 0, 128);
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

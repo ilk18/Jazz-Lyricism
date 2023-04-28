@@ -3,12 +3,20 @@
     <head>
         <title>Ma Rainey</title>
         <link rel="stylesheet" type="text/css" href="MeettheSingers.css" />
+        <script src="ExploretheSongs.js"></script>
     </head>
     <body>
         <ul class="navigation">
             <li><a href="index.xhtml">Home</a></li>
             <li><a href="MeettheSingers.xhtml">Meet the Singers</a></li>
-            <li><a href="ExploretheSongs.xhtml">Explore the Songs</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Explore the Songs</a>
+                <div class="dropdown-content">
+                    <a href="ma_rainey.html">Ma Rainey</a>
+                    <a href="bessie_smith.html">Bessie Smith</a>
+                    <a href="mamie_smith.html">Mamie Smith</a>
+                </div>
+            </li>
             <li><a href="TheData.xhtml">Our Findings</a></li>
         </ul>
         <h1>Meet the Singers</h1>
@@ -40,10 +48,13 @@
                 </div>
             </div>
         </section>
-        <p>Information retrieved from:<a
-                href="https://www.blackpast.org/african-american-history/rainey-gertrude-ma-1886-1939/"
-                >https://www.npr.org/2019/08/05/747738120/how-bessie-smith-influenced-a-century-of-popular-music</a></p>
-        <audio controls="controls" autoplay="true"
+        <p>Information retrieved from:<a href="https://outhistory.org/exhibits/show/rainey/rainey2"
+                >https://outhistory.org/exhibits/show/rainey/rainey2</a>
+            <a
+                href="https://www.womenshistory.org/education-resources/biographies/gertrude-ma-rainey"
+                >https://www.womenshistory.org/education-resources/biographies/gertrude-ma-rainey</a>
+        </p>
+        <audio controls="controls"
             title="Click play to listen to Ma Rainey sing Don't Fish In My Sea as you read.">
             <source src="MaRaineyDontFishInMySea.mp3" type="audio/mpeg" />
         </audio>
