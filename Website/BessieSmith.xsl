@@ -5,8 +5,9 @@
     version="3.0">
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
-    <xsl:variable name="bessiesmith-songs" as="document-node()+"
-        select="collection('../song_markup/?select=*.xml')//song[metadata/sung-by = 'Bessie Smith']"/>
+    <xsl:variable name="all-songs" as="document-node()+"
+        select="collection('XML/?select=*.xml')"/>
+    <xsl:variable name="bessie-smith-songs" as="document-node()+" select="$all-songs[descendant::sung-by eq 'Bessie Smith']"/>
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
@@ -19,7 +20,7 @@
                     <li><a href="index.xhtml">Home</a></li>
                     <li><a href="MeettheSingers.xhtml">Meet the Singers</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropbtn">Explore the Songs</a>
+                        <a href="ExploretheSongs.html" class="dropbtn">Explore the Songs</a>
                         <div class="dropdown-content">
                             <a href="song-markup-collection.xsl">Ma Rainey</a>
                             <a href="BessieSmith.xsl">Bessie Smith</a>
@@ -28,7 +29,7 @@
                     </li>
                     <li><a href="TheData.xhtml">Our Findings</a></li>
                 </ul>
-                <xsl:apply-templates select="$all-songs//song"/>
+                <xsl:apply-templates select="$bessie-smith-songs"/>
             </body>
         </html>
     </xsl:template>

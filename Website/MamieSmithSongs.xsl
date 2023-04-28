@@ -20,7 +20,7 @@
                     <li><a href="index.xhtml">Home</a></li>
                     <li><a href="MeettheSingers.xhtml">Meet the Singers</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropbtn">Explore the Songs</a>
+                        <a href="ExploretheSongs.html" class="dropbtn">Explore the Songs</a>
                         <div class="dropdown-content">
                             <a href="song-markup-collection.xsl">Ma Rainey</a>
                             <a href="BessieSmith.xsl">Bessie Smith</a>
@@ -54,3 +54,4 @@
         <br/>
     </xsl:template>
 </xsl:stylesheet>
+
