@@ -64,4 +64,37 @@ html {
     font-family: "CopperPlate", fantasy;
 }
 
+p {
+    margin-right: 120px;
+    margin-left: 120px;
+    background-color: #bfdcff;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+ul {
+    margin-right: 140px;
+    margin-left: 140px;
+    background-color: #bfdcff;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: #73b4ff;
+    margin-right: 380px;
+    margin-left: 380px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    background-color: #b3d6ff;
+    margin-right: 490px;
+    margin-left: 490px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
 
