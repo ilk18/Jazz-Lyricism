@@ -7,11 +7,10 @@
         indent="yes"/>
     <xsl:variable name="all-songs" as="document-node()+"
         select="collection('XML/?select=*.xml')"/>
-    <xsl:variable name="ma-rainey-songs" as="document-node()+" select="$all-songs[descendant::sung-by eq 'Ma Rainey']"/>
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
-                <title>Ma Rainey</title>
+                <title>Eplore the Songs</title>
                 <link rel="stylesheet" type="text/css" href="ExploretheSongs.css" />
                 <script src="ExploretheSongs.js"></script>
             </head>
@@ -29,7 +28,7 @@
                     </li>
                     <li><a href="TheData.xhtml">Our Findings</a></li>
                 </ul>
-                <xsl:apply-templates select="$ma-rainey-songs"/>
+                <xsl:apply-templates select="$all-songs"/>
             </body>
         </html>
     </xsl:template>

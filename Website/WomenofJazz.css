@@ -104,34 +104,4 @@ p {
   margin: 4px 2px; 
   cursor: pointer; 
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: rgb(0, 0, 128);
-    min-width: 160px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.license {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #191970;
-    border-radius: 10px;
-    margin-left: 270px;
-    margin-right: 270px;
-    background-color: #ededff;
-    text-align: center;
-}
-ol {
-  text-align: left;
-  font-size: 8px;
-}

@@ -79,22 +79,6 @@ h2 {
     border-radius: 15px;
     padding: 10px;
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: rgb(0, 0, 128);
-    min-width: 160px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 img {
     margin-right: 150px;
