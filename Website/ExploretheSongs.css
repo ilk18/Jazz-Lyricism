@@ -43,13 +43,8 @@
         color: white;
     }
 }
-
-body {
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: black;
-    font-family: "CopperPlate", fantasy;
-    text-align: center;
+section {text-align: center;
+font-family: "CopperPlate", fantasy;
 }
-
+h1 {text-align: center;
+font-family: "CopperPlate", fantasy;}
