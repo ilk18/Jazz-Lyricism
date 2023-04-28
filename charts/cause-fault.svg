@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+   <line x1="50"
+         x2="35"
+         y1="500"
+         y2="500"
+         stroke="grey"
+         stroke-linecap="square"/>
+   <text x="35" y="498">0</text>
+   <line x1="35"
+         x2="510"
+         y1="460"
+         y2="460"
+         stroke="grey"
+         stroke-linecap="square"/>
+   <text x="35" y="458">2</text>
+   <line x1="35"
+         x2="510"
+         y1="420"
+         y2="420"
+         stroke="grey"
+         stroke-linecap="square"/>
+   <text x="35" y="418">4</text>
+   <line x1="35"
+         x2="510"
+         y1="340"
+         y2="340"
+         stroke="grey"
+         stroke-linecap="square"/>
+   <text x="35" y="338">8</text>
+   <line x1="35"
+         x2="510"
+         y1="260"
+         y2="260"
+         stroke="grey"
+         stroke-linecap="square"/>
+   <text x="32" y="258">12</text>
+   <line x1="35"
+         x2="510"
+         y1="180"
+         y2="180"
+         stroke="grey"
+         stroke-linecap="square"/>
+   <text x="32" y="178">16</text>
+   <line x1="50"
+         x2="510"
+         y1="500"
+         y2="500"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="50"
+         x2="50"
+         y1="500"
+         y2="180"
+         stroke="black"
+         stroke-linecap="square"/>
+   <text x="300" y="150" text-anchor="middle">Frequency and Causes of Relationship Failure</text>
+   <text x="70" y="520">No Love</text>
+   <text x="140" y="540">Abuse</text>
+   <text x="175" y="520">Abandonment</text>
+   <text x="230" y="540">Money Troubles</text>
+   <text x="320" y="520">Event</text>
+   <text x="370" y="540">Cheating</text>
+   <text x="440" y="520">Death</text>
+   <line x1="160"
+         x2="160"
+         y1="500"
+         y2="525"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="280"
+         x2="280"
+         y1="500"
+         y2="525"
+         stroke="black"
+         stroke-linecap="square"/>
+   <line x1="400"
+         x2="400"
+         y1="500"
+         y2="525"
+         stroke="black"
+         stroke-linecap="square"/>
+   <text x="0" y="410" transform="rotate(270 0,400)">Frequency Found</text>
+   <rect x="80"
+         y="340"
+         width="40"
+         height="160"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="140"
+         y="460"
+         width="40"
+         height="40"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="200"
+         y="200"
+         width="40"
+         height="300"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="260"
+         y="500"
+         width="40"
+         height="0"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="320"
+         y="480"
+         width="40"
+         height="20"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="380"
+         y="440"
+         width="40"
+         height="60"
+         fill="#1565C0"
+         stroke="black"/>
+   <rect x="440"
+         y="460"
+         width="40"
+         height="40"
+         fill="#1565C0"
+         stroke="black"/>
+</svg>
