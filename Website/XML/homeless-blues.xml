@@ -32,7 +32,7 @@
     <verse>
         <line-start/><description possessive="no" tone="negative" gender="female" referent="self">Wish I was an eagle, but I'm a plain old black crow, 
         <line-start/>Wish I was an eagle, but I'm a plain old black crow,</description>
-        <line-start/><action present="yes" who="woman">I'm gonna flap my wings and leave here, and never come back no more.</action>
+        <line-start/><action present="yes" who="woman" type="passive">I'm gonna flap my wings and leave here, and never come back no more.</action>
     </verse>
 </song>
 <!-- 

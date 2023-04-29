@@ -1,15 +1,8 @@
-body {
-    background-image: linear-gradient(to bottom, CornflowerBlue, white);
-    font-family: "CopperPlate", fantasy;
+p {
     text-align: center;
-    display:block;
-}
-
-h1 {
     font-family: "CopperPlate", fantasy;
-    color: black;
+    display: inline-block;
 }
-
 .navigation {
     display: flex;
     flex-flow: row wrap;
@@ -52,7 +45,7 @@ h1 {
     .navigation li:last-of-type a {
         border-bottom: solid;
         border-top: solid;
-        color: black;
+        color: white;
     }
 }
 
@@ -60,48 +53,9 @@ h1 {
     display: grid;
     grid-auto-rows: 150px;
 }
-
-.hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60%;
-    position: relative;
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
 }
-
-.image-container {
-    display: inline-block;
-    width: 50%;
-    height: 50%;
-    padding: 10px;
-    object-fit: cover;
-}
-
-.image-container {
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-}
-
-audio {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-}
-
-p {
-    text-align: center;
-}
-#button-container button {
-  background-color: #4CAF50; 
-  border: none; 
-  color: white; 
-  padding: 15px 32px; 
-  text-align: center; 
-  text-decoration: none; 
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px; 
-  cursor: pointer; 
-}
-
