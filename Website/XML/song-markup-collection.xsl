@@ -6,11 +6,11 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
         indent="yes"/>
     <xsl:variable name="all-songs" as="document-node()+"
-        select="collection('XML/?select=*.xml')"/>
+        select="collection('.?select=*.xml')"/>
     <xsl:template name="xsl:initial-template">
         <html>
             <head>
-                <title>Eplore the Songs</title>
+                <title>Explore the Songs</title>
                 <link rel="stylesheet" type="text/css" href="ExploretheSongs.css" />
             </head>
             <body>
@@ -42,7 +42,27 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="line-start">
-        <br/>
+    <xsl:template match="action">
+        <span style="color: blue;"><xsl:value-of select="."/></span>
+    </xsl:template>
+    
+    <xsl:template match="description">
+        <span style="color: green;"><xsl:value-of select="."/></span>
+    </xsl:template>
+    
+    <xsl:template match="cause">
+        <span style="color: red;"><xsl:value-of select="."/></span>
+    </xsl:template>
+    
+    <xsl:template match="mental-health">
+        <span style="color: orange;"><xsl:value-of select="."/></span>
+    </xsl:template>
+    
+    <xsl:template match="relationship">
+        <span style="color: purple;"><xsl:value-of select="."/></span>
+    </xsl:template>
+    
+    <xsl:template match="money">
+        <span style="color: brown;"><xsl:value-of select="."/></span>
     </xsl:template>
 </xsl:stylesheet>
