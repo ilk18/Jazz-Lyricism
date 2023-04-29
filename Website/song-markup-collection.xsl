@@ -12,20 +12,13 @@
             <head>
                 <title>Eplore the Songs</title>
                 <link rel="stylesheet" type="text/css" href="ExploretheSongs.css" />
-                <script src="ExploretheSongs.js"></script>
             </head>
             <body>
                 <ul class="navigation">
                     <li><a href="index.xhtml">Home</a></li>
                     <li><a href="MeettheSingers.xhtml">Meet the Singers</a></li>
-                    <li class="dropdown">
-                        <a href="ExploretheSongs.html" class="dropbtn">Explore the Songs</a>
-                        <div class="dropdown-content">
-                            <a href="song-markup-collection.xsl">Ma Rainey</a>
-                            <a href="BessieSmith.xsl">Bessie Smith</a>
-                            <a href="MamieSmith.xsl">Mamie Smith</a>
-                        </div>
-                    </li>
+                    <li><a href="Methodology.xhtml">Our Methodology</a></li>
+                    <li><a href="song-markup.xhtml">Explore the Songs</a></li>
                     <li><a href="TheData.xhtml">Our Findings</a></li>
                 </ul>
                 <xsl:apply-templates select="$all-songs"/>
