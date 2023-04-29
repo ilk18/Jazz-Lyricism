@@ -21,12 +21,13 @@
     background: #1565C0;
 }
 
-@media all and (max-width : 800px) {
+@media all and (max-width: 800px) {
     .navigation {
         justify-content: space-around;
     }
+}
 
-@media all and (max-width : 600px) {
+@media all and (max-width: 600px) {
     .navigation {
         flex-flow: column wrap;
         padding: 0;
@@ -41,7 +42,10 @@
         border-bottom: solid;
         border-top: solid;
         color: white;
-    } 
+    }
+}
+
+
 html {
     font-family: "CopperPlate", fantasy;
 }
@@ -58,7 +62,6 @@ ul {
     margin-right: 140px;
     margin-left: 140px;
     background-color: #bfdcff;
-    
 }
 
 h1 {
@@ -83,4 +86,3 @@ img {
     margin-right: 150px;
     margin-left: 150px;
 }
-
